@@ -55,8 +55,10 @@ const html = String.raw`<!doctype html>
       .hero:before { content:""; position:absolute; inset:0; opacity:.12; background-image:linear-gradient(#161616 1px, transparent 1px), linear-gradient(90deg,#161616 1px,transparent 1px); background-size:42px 42px; }
       .hero-grid { position:relative; display:grid; grid-template-columns:.86fr .74fr; gap:32px; align-items:start; min-height:calc(100vh - 150px); align-content:space-between; }
       .eyebrow { margin:0 0 28px; font-size:12px; font-weight:900; letter-spacing:.08em; color:#0009; }
-      h1 { margin:0; max-width:10.5em; font-size:clamp(2.65rem,5.8vw,6.7rem); line-height:1.08; font-weight:900; letter-spacing:0; text-wrap:balance; word-break:keep-all; overflow-wrap:anywhere; }
+      h1 { margin:0; display:grid; max-width:9.6em; gap:.12em; font-size:clamp(2.75rem,7.2vw,7.8rem); line-height:1.03; font-weight:900; letter-spacing:.01em; font-feature-settings:"palt"; line-break:strict; text-wrap:balance; word-break:keep-all; overflow-wrap:normal; }
+      h1 span { display:block; white-space:nowrap; }
       .en h1 { max-width:18ch; font-size:clamp(3rem,7.5vw,9.2rem); line-height:.92; text-transform:uppercase; }
+      .en h1 span { white-space:normal; }
       .hero-img { position:relative; overflow:hidden; border:1px solid #0003; background:#000; box-shadow:0 24px 80px #0005; margin-top:48px; }
       .hero-img img { display:block; width:100%; aspect-ratio:16/10; object-fit:cover; opacity:.9; }
       .hero-caption { position:absolute; inset:auto 0 0; display:flex; justify-content:space-between; align-items:end; padding:20px; color:white; background:linear-gradient(to top,#000,#000a,transparent); font-weight:900; letter-spacing:.16em; font-size:12px; text-transform:uppercase; }
@@ -68,7 +70,7 @@ const html = String.raw`<!doctype html>
       .intro { margin:0; font-size:clamp(20px,2vw,28px); line-height:1.65; color:#000b; }
       .dark { background:var(--ink); color:white; }
       .proof { display:grid; grid-template-columns:.65fr 1fr; gap:40px; align-items:center; }
-      h2 { margin:0; font-size:clamp(42px,6vw,92px); line-height:1.12; font-weight:900; text-wrap:balance; word-break:keep-all; }
+      h2 { margin:0; font-size:clamp(40px,4.8vw,90px); line-height:1.14; font-weight:900; letter-spacing:.01em; font-feature-settings:"palt"; line-break:strict; text-wrap:balance; word-break:keep-all; overflow-wrap:normal; }
       .en h2 { line-height:.95; text-transform:uppercase; }
       .muted { color:inherit; opacity:.65; line-height:1.75; }
       .tile-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:#fff3; }
@@ -139,8 +141,9 @@ const html = String.raw`<!doctype html>
       @media (max-width: 760px) {
         .section { padding:72px 20px; }
         .hero { padding-top:118px; }
-        h1 { font-size:clamp(44px,12vw,68px); }
+        h1 { max-width:100%; gap:.08em; font-size:clamp(42px,13vw,66px); line-height:1.05; }
         .en h1 { font-size:clamp(44px,12vw,72px); }
+        h2 { font-size:clamp(34px,9.8vw,58px); line-height:1.16; }
         .tile-grid, .stats, .steps, .services, .compare, .eco, .metrics, .split, .form-grid, .legal { grid-template-columns:1fr; }
         .panel { padding:28px; min-height:300px; }
         .footer { align-items:flex-start; flex-direction:column; }
@@ -224,7 +227,7 @@ const html = String.raw`<!doctype html>
       const $ = (s) => document.querySelector(s);
       const $$ = (s) => [...document.querySelectorAll(s)];
       function render() {
-        const t = C[lang]; document.documentElement.lang = lang === "jp" ? "ja" : "en"; document.body.className = lang === "en" ? "en" : "";
+        const t = C[lang]; document.documentElement.lang = lang === "jp" ? "ja" : "en"; document.body.className = lang === "en" ? "en" : "jp";
         $$("[data-t]").forEach(el => { if (t[el.dataset.t]) el.textContent = t[el.dataset.t]; });
         $("#hero-title").innerHTML = t.hero.map(x => "<span>"+x+"</span>").join("<br />");
         $("#audience").innerHTML = t.audience.map(x => '<div class="tile"><span class="mark"><span class="dot"></span></span><p>'+x+'</p></div>').join("");

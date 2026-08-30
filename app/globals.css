@@ -44,7 +44,49 @@ html {
     var(--font-geist-sans),
     sans-serif;
   font-feature-settings: "palt";
+  line-break: strict;
   text-wrap: balance;
   word-break: keep-all;
-  overflow-wrap: anywhere;
+  overflow-wrap: normal;
+}
+
+.jp-hero-title {
+  display: grid;
+  max-width: 9.6em;
+  gap: 0.12em;
+  font-size: clamp(2.75rem, 7.2vw, 7.8rem);
+  line-height: 1.03;
+  letter-spacing: 0.01em;
+}
+
+.jp-hero-title span {
+  display: block;
+  white-space: nowrap;
+}
+
+.jp-heading {
+  font-size: clamp(2.5rem, 4.8vw, 5.65rem);
+  line-height: 1.14;
+  letter-spacing: 0.01em;
+}
+
+.jp-heading-compact {
+  font-size: clamp(2.35rem, 4.2vw, 4.95rem);
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+}
+
+@media (max-width: 760px) {
+  .jp-hero-title {
+    max-width: 100%;
+    gap: 0.08em;
+    font-size: clamp(2.65rem, 13vw, 4.15rem);
+    line-height: 1.05;
+  }
+
+  .jp-heading,
+  .jp-heading-compact {
+    font-size: clamp(2.15rem, 9.8vw, 3.65rem);
+    line-height: 1.16;
+  }
 }

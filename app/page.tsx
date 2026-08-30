@@ -374,7 +374,7 @@ export default function Home() {
   }
 
   return (
-    <main className="min-h-screen overflow-hidden bg-[#f5f1e9] text-[#161616]">
+    <main className={`min-h-screen overflow-hidden bg-[#f5f1e9] text-[#161616] ${isJp ? "jp-page" : "en-page"}`}>
       <nav className="fixed inset-x-0 top-0 z-50 border-b border-black/10 bg-[#f5f1e9]/90 backdrop-blur-xl">
         <div className="mx-auto flex h-20 max-w-[1540px] items-center justify-between px-5 sm:px-8 lg:px-12">
           <a href="#top" className="group flex items-center gap-3" aria-label="uwupon home">
@@ -421,7 +421,7 @@ export default function Home() {
           <div className={`grid gap-8 lg:items-start ${isJp ? "lg:grid-cols-[0.86fr_0.74fr]" : "lg:grid-cols-[1fr_0.78fr]"}`}>
             <div>
               <p className={`mb-7 text-xs font-black text-black/55 ${isJp ? "tracking-[0.08em]" : "uppercase tracking-[0.2em]"}`}>{t.eyebrow}</p>
-              <h1 className={isJp ? "jp-display grid max-w-[10.5em] gap-2 text-[clamp(2.65rem,5.8vw,6.7rem)] font-black leading-[1.08] tracking-normal" : "grid max-w-[18ch] gap-1 text-[clamp(3rem,7.5vw,9.2rem)] font-black uppercase leading-[0.92] tracking-normal"}>
+              <h1 className={isJp ? "jp-display jp-hero-title font-black" : "grid max-w-[18ch] gap-1 text-[clamp(3rem,7.5vw,9.2rem)] font-black uppercase leading-[0.92] tracking-normal"}>
                 {isJp ? (
                   <>
                     <span>1曲から</span>
@@ -462,7 +462,7 @@ export default function Home() {
       <section id="work" className="border-y border-black/10 bg-[#161616] px-5 py-10 text-white sm:px-8 lg:px-12">
         <div className="mx-auto grid max-w-[1540px] gap-10 lg:grid-cols-[0.65fr_1fr] lg:items-center">
           <div>
-            <h2 className={`text-3xl font-black tracking-normal sm:text-5xl ${isJp ? "jp-display leading-[1.15]" : "uppercase"}`}>{t.proofTitle}</h2>
+            <h2 className={`font-black tracking-normal ${isJp ? "jp-display jp-heading-compact" : "text-3xl uppercase sm:text-5xl"}`}>{t.proofTitle}</h2>
             <p className="mt-5 max-w-xl text-sm leading-relaxed text-white/58">{t.proofCopy}</p>
           </div>
           <div className="grid gap-px bg-white/15 md:grid-cols-3">
@@ -486,8 +486,8 @@ export default function Home() {
 
       <section className="px-5 py-24 sm:px-8 lg:px-12">
         <div className="mx-auto grid max-w-[1540px] gap-px bg-black/15 lg:grid-cols-2">
-          <Panel title={t.problemTitle} body={t.problem} tone="dark" />
-          <Panel title={t.answerTitle} body={t.answer} tone="lime" />
+          <Panel title={t.problemTitle} body={t.problem} tone="dark" isJp={isJp} />
+          <Panel title={t.answerTitle} body={t.answer} tone="lime" isJp={isJp} />
         </div>
       </section>
 
@@ -496,7 +496,7 @@ export default function Home() {
           <div className="grid gap-10 lg:grid-cols-[0.52fr_1fr]">
             <div>
               <p className="text-xs font-black uppercase tracking-[0.2em] text-black/45">The Model</p>
-              <h2 className={`mt-4 text-5xl font-black sm:text-7xl ${isJp ? "jp-display leading-[1.12]" : "uppercase leading-none"}`}>{t.modelTitle}</h2>
+              <h2 className={`mt-4 font-black ${isJp ? "jp-display jp-heading-compact" : "text-5xl uppercase leading-none sm:text-7xl"}`}>{t.modelTitle}</h2>
               <p className="mt-8 text-lg leading-relaxed text-black/65">{t.modelCopy}</p>
             </div>
             <ol className="grid gap-px bg-black/15 md:grid-cols-2">
@@ -515,7 +515,7 @@ export default function Home() {
 
       <section id="services" className="bg-white px-5 py-24 sm:px-8 lg:px-12">
         <div className="mx-auto max-w-[1540px]">
-          <h2 className={`max-w-5xl text-5xl font-black sm:text-7xl ${isJp ? "jp-display leading-[1.12]" : "uppercase leading-none"}`}>{t.servicesTitle}</h2>
+          <h2 className={`max-w-5xl font-black ${isJp ? "jp-display jp-heading" : "text-5xl uppercase leading-none sm:text-7xl"}`}>{t.servicesTitle}</h2>
           <div className="mt-14 grid gap-px bg-black/12 md:grid-cols-2 xl:grid-cols-3">
             {t.services.map(([title, body], index) => (
               <article key={title} className={`min-h-72 bg-white p-7 transition hover:bg-[#f5f1e9] ${index === 6 ? "xl:col-span-3" : ""}`}>
@@ -530,10 +530,10 @@ export default function Home() {
 
       <section className="bg-[#161616] px-5 py-24 text-white sm:px-8 lg:px-12">
         <div className="mx-auto max-w-[1540px]">
-          <h2 className={`max-w-4xl text-5xl font-black sm:text-7xl ${isJp ? "jp-display leading-[1.12]" : "uppercase leading-none"}`}>{t.whyTitle}</h2>
+          <h2 className={`max-w-4xl font-black ${isJp ? "jp-display jp-heading" : "text-5xl uppercase leading-none sm:text-7xl"}`}>{t.whyTitle}</h2>
           <div className="mt-14 grid gap-px bg-white/15 lg:grid-cols-2">
-            <Compare title={t.traditional} items={t.traditionalList} muted />
-            <Compare title={t.ours} items={t.oursList} />
+            <Compare title={t.traditional} items={t.traditionalList} muted isJp={isJp} />
+            <Compare title={t.ours} items={t.oursList} isJp={isJp} />
           </div>
         </div>
       </section>
@@ -541,7 +541,7 @@ export default function Home() {
       <section className="relative overflow-hidden bg-[#d6ff3f] px-5 py-24 sm:px-8 lg:px-12">
         <div className="absolute inset-y-0 right-0 hidden w-1/3 bg-[repeating-linear-gradient(0deg,#161616_0_3px,transparent_3px_18px)] opacity-10 lg:block" />
         <div className="relative mx-auto max-w-[1540px]">
-          <h2 className={`max-w-5xl text-5xl font-black sm:text-8xl ${isJp ? "jp-display leading-[1.12]" : "uppercase leading-none"}`}>{t.ecosystemTitle}</h2>
+          <h2 className={`max-w-5xl font-black ${isJp ? "jp-display jp-heading" : "text-5xl uppercase leading-none sm:text-8xl"}`}>{t.ecosystemTitle}</h2>
           <div className="mt-14 grid gap-4 md:grid-cols-4">
             {t.ecosystem.map(([number, label]) => (
               <div key={label} className="border-t-4 border-black pt-5">
@@ -557,7 +557,7 @@ export default function Home() {
         <div className="mx-auto max-w-[1540px]">
           <div className="grid gap-8 lg:grid-cols-[0.6fr_1fr]">
             <div>
-              <h2 className={`text-5xl font-black sm:text-7xl ${isJp ? "jp-display leading-[1.12]" : "uppercase leading-none"}`}>{t.plansTitle}</h2>
+              <h2 className={`font-black ${isJp ? "jp-display jp-heading-compact" : "text-5xl uppercase leading-none sm:text-7xl"}`}>{t.plansTitle}</h2>
               <p className="mt-7 text-base leading-relaxed text-black/62">{t.plansNote}</p>
             </div>
             <div className="grid gap-px bg-black/12">
@@ -595,7 +595,7 @@ export default function Home() {
 
       <section id="about" className="bg-white px-5 py-24 sm:px-8 lg:px-12">
         <div className="mx-auto grid max-w-[1540px] gap-10 lg:grid-cols-[1fr_0.65fr] lg:items-end">
-          <h2 className={`text-5xl font-black sm:text-8xl ${isJp ? "jp-display leading-[1.12]" : "uppercase leading-none"}`}>{t.aboutTitle}</h2>
+          <h2 className={`font-black ${isJp ? "jp-display jp-heading" : "text-5xl uppercase leading-none sm:text-8xl"}`}>{t.aboutTitle}</h2>
           <p className="text-xl leading-relaxed text-black/66">{t.about}</p>
         </div>
       </section>
@@ -604,7 +604,7 @@ export default function Home() {
         <div className="mx-auto grid max-w-[1540px] gap-12 lg:grid-cols-[0.62fr_1fr]">
           <div>
             <p className="text-xs font-black uppercase tracking-[0.2em] text-[#d6ff3f]">Contact</p>
-            <h2 className={`mt-5 text-5xl font-black sm:text-7xl ${isJp ? "jp-display leading-[1.12]" : "uppercase leading-none"}`}>{t.formTitle}</h2>
+            <h2 className={`mt-5 font-black ${isJp ? "jp-display jp-heading-compact" : "text-5xl uppercase leading-none sm:text-7xl"}`}>{t.formTitle}</h2>
             <p className="mt-8 max-w-xl text-lg leading-relaxed text-white/62">{t.formIntro}</p>
           </div>
           <form action="https://formsubmit.co/aweandco@gmail.com" method="POST" onSubmit={submit} noValidate className="grid gap-5">
@@ -678,19 +678,19 @@ function LanguageToggle({ lang, setLang }: { lang: Lang; setLang: (lang: Lang) =
   );
 }
 
-function Panel({ title, body, tone }: { title: string; body: string; tone: "dark" | "lime" }) {
+function Panel({ title, body, tone, isJp }: { title: string; body: string; tone: "dark" | "lime"; isJp: boolean }) {
   return (
     <article className={`min-h-96 p-7 sm:p-10 ${tone === "dark" ? "bg-[#161616] text-white" : "bg-[#d6ff3f] text-black"}`}>
-      <h2 className="max-w-2xl text-4xl font-black uppercase leading-none sm:text-6xl">{title}</h2>
+      <h2 className={`max-w-2xl font-black ${isJp ? "jp-display jp-heading-compact" : "text-4xl uppercase leading-none sm:text-6xl"}`}>{title}</h2>
       <p className={`mt-8 max-w-2xl text-lg leading-relaxed ${tone === "dark" ? "text-white/66" : "text-black/68"}`}>{body}</p>
     </article>
   );
 }
 
-function Compare({ title, items, muted = false }: { title: string; items: readonly string[]; muted?: boolean }) {
+function Compare({ title, items, muted = false, isJp }: { title: string; items: readonly string[]; muted?: boolean; isJp: boolean }) {
   return (
     <article className={`p-7 sm:p-10 ${muted ? "bg-[#222] text-white/72" : "bg-[#d6ff3f] text-black"}`}>
-      <h3 className="text-3xl font-black uppercase leading-none sm:text-5xl">{title}</h3>
+      <h3 className={`font-black ${isJp ? "jp-display jp-heading-compact" : "text-3xl uppercase leading-none sm:text-5xl"}`}>{title}</h3>
       <ul className="mt-10 grid gap-3">
         {items.map((item) => (
           <li key={item} className={`flex items-center justify-between gap-4 border-t py-4 text-lg font-black ${muted ? "border-white/14" : "border-black/18"}`}>
