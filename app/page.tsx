@@ -421,7 +421,7 @@ export default function Home() {
           <div className={`grid gap-8 lg:items-start ${isJp ? "lg:grid-cols-[0.86fr_0.74fr]" : "lg:grid-cols-[1fr_0.78fr]"}`}>
             <div>
               <p className={`mb-7 text-xs font-black text-black/55 ${isJp ? "tracking-[0.08em]" : "uppercase tracking-[0.2em]"}`}>{t.eyebrow}</p>
-              <h1 className={isJp ? "jp-display grid max-w-[9.5em] gap-1 text-[clamp(3rem,6.8vw,7.8rem)] font-black leading-[1.02] tracking-normal" : "max-w-[12ch] text-[clamp(3.35rem,10vw,12rem)] font-black uppercase leading-[0.86] tracking-normal"}>
+              <h1 className={isJp ? "jp-display grid max-w-[9.5em] gap-1 text-[clamp(3rem,6.8vw,7.8rem)] font-black leading-[1.02] tracking-normal" : "grid max-w-[18ch] gap-1 text-[clamp(3rem,7.5vw,9.2rem)] font-black uppercase leading-[0.92] tracking-normal"}>
                 {isJp ? (
                   <>
                     <span>1曲から、</span>
@@ -429,7 +429,11 @@ export default function Home() {
                     <span>ショート動画へ。</span>
                   </>
                 ) : (
-                  t.hero
+                  <>
+                    <span>ONE SONG.</span>
+                    <span>DOZENS OF</span>
+                    <span>DISCOVERY MOMENTS.</span>
+                  </>
                 )}
               </h1>
             </div>
