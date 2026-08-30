@@ -27,9 +27,9 @@ const content = {
     cta: "キャンペーンを相談する",
     secondary: "仕組みを見る",
     eyebrow: "日本の音楽市場に特化したショートフォーム戦略",
-    hero: "曲が、見つかる理由をつくる。",
+    hero: "1曲を、何十本もの発見機会へ。",
     intro:
-      "uwuponは、楽曲を起点に企画、ショート動画制作、配信、検証、改善までを設計する音楽マーケティングスタジオです。TikTok、Instagram Reels、YouTube Shortsで、曲に触れるきっかけを増やします。",
+      "uwuponは、楽曲からショート動画の企画をつくり、まとめて制作し、複数の投稿面へ配信し、反応を見ながら改善する音楽マーケティングスタジオです。",
     proofTitle: "レーベル、マネジメント、アーティストチームのための実行体制。",
     proofCopy:
       "新曲リリース、旧譜の再発見、海外展開、日本市場へのローカライズまで。高額な単発投稿に頼り切らず、複数の企画と制作量で反応の入口を広げます。",
@@ -79,33 +79,50 @@ const content = {
       ["50+", "CONTENT PIECES"],
       ["1000s", "DISCOVERY MOMENTS"],
     ],
-    caseTitle: "想定キャンペーン例。",
-    caseNote:
-      "以下は提案内容をイメージしやすくするための架空シナリオです。実在アーティストの実績ではありません。",
-    cases: [
+    plansTitle: "uwuponでできること。",
+    plansNote:
+      "過去実績ではなく、相談時に設計できるキャンペーン例です。再生数、配信面、ストリーム増加は楽曲、素材、予算、投稿先、時期により変動します。",
+    planLabels: {
+      duration: "期間",
+      output: "制作本数",
+      distribution: "配信先",
+      target: "目標レンジ",
+      stream: "ストリームへの接続",
+      detail: "実施内容",
+    },
+    plans: [
       {
-        artist: "新進J-POPアーティスト",
-        song: "発売前シングル",
-        objective: "発売前の認知形成",
-        videos: "45-60本想定",
-        views: "初動反応を見て最適化",
-        engagement: "保存、コメント、音源使用を確認",
-        best: "歌詞の一節を日常の感情に接続する字幕フック",
-        duration: "4週間",
-        strategy: "サビ前の高揚感、歌詞の共感性、本人素材の熱量を別々の企画として検証。",
-        result: "反応の強い切り口を特定し、発売週の追加制作へ接続。",
+        title: "Launch Test",
+        use: "新曲の初動テスト",
+        duration: "1ヶ月",
+        output: "20-35本",
+        distribution: "10-25アカウント",
+        target: "5万-30万再生を目標設計",
+        stream: "プロフィール、音源ページ、広告素材へ接続",
+        detail:
+          "サビ、歌詞、本人素材、ムード動画など複数の切り口を試し、反応の強い企画を早い段階で見つけます。",
       },
       {
-        artist: "海外インディーレーベル",
-        song: "日本展開用フォーカストラック",
-        objective: "日本市場での文脈づくり",
-        videos: "30-50本想定",
-        views: "国内反応を週次で確認",
-        engagement: "コメント内容と視聴維持を分析",
-        best: "海外での反応を日本語文脈に翻訳した紹介型フォーマット",
-        duration: "3週間",
-        strategy: "直訳ではなく、日本のリスナーが入りやすい比較、ムード、シーンの文脈に変換。",
-        result: "日本語圏で反応する訴求を見つけ、広告・PR素材にも転用。",
+        title: "Market Build",
+        use: "発売週から1ヶ月の話題化",
+        duration: "2ヶ月",
+        output: "50-80本",
+        distribution: "25-60アカウント",
+        target: "20万-100万再生を目標設計",
+        stream: "Spotify / Apple Music / YouTubeへの導線を強化",
+        detail:
+          "初動で反応した企画を増産し、日本語圏と海外圏で別々の見せ方を設計します。",
+      },
+      {
+        title: "Scale System",
+        use: "旧譜・重点曲の継続運用",
+        duration: "3ヶ月",
+        output: "90-150本",
+        distribution: "50-120アカウント",
+        target: "50万-300万再生を目標設計",
+        stream: "反応の高い動画を広告、PR、プレイリスト提案に転用",
+        detail:
+          "毎週の反応を見ながら投稿テーマを入れ替え、曲が使われる場面と接触回数を継続的に増やします。",
       },
     ],
     aboutTitle: "広告ではなく、インターネットが使いたくなる理由をつくる。",
@@ -156,9 +173,9 @@ const content = {
     cta: "START A CAMPAIGN",
     secondary: "SEE HOW IT WORKS",
     eyebrow: "SHORT-FORM MUSIC STRATEGY FOR JAPAN",
-    hero: "WE CREATE REASONS FOR SONGS TO BE FOUND.",
+    hero: "ONE SONG. DOZENS OF DISCOVERY MOMENTS.",
     intro:
-      "uwupon is a music marketing studio built around short-form strategy, content production, distribution, testing, and optimization for TikTok, Instagram Reels, and YouTube Shorts.",
+      "uwupon turns songs into short-form concepts, produces them at volume, distributes them across relevant accounts, then tests and improves the campaign around audience response.",
     proofTitle: "Built for labels, management teams, and modern artists.",
     proofCopy:
       "For new releases, catalog rediscovery, Japan localization, and global expansion. We do not rely on a single expensive post; we build many credible entry points around a song.",
@@ -208,33 +225,50 @@ const content = {
       ["50+", "CONTENT PIECES"],
       ["1000s", "DISCOVERY MOMENTS"],
     ],
-    caseTitle: "Representative campaign scenarios.",
-    caseNote:
-      "These are fictional scenarios to show how engagements are structured. They are not claims of past client results.",
-    cases: [
+    plansTitle: "What uwupon can do for you.",
+    plansNote:
+      "These are campaign structures, not past-client results. Views, distribution count, and stream impact vary by song, assets, budget, timing, and account fit.",
+    planLabels: {
+      duration: "Duration",
+      output: "Content Output",
+      distribution: "Distribution",
+      target: "Target Range",
+      stream: "Stream Connection",
+      detail: "What Happens",
+    },
+    plans: [
       {
-        artist: "Emerging J-pop Artist",
-        song: "Pre-release Single",
-        objective: "Build awareness before release week",
-        videos: "45-60 planned pieces",
-        views: "Optimized from early response",
-        engagement: "Saves, comments, and sound-use signals",
-        best: "Lyric-led caption hook connected to everyday emotion",
-        duration: "4 weeks",
-        strategy: "Test the pre-chorus lift, lyric relatability, and artist footage as separate creative angles.",
-        result: "Identify the strongest angle and feed it into release-week production.",
+        title: "Launch Test",
+        use: "Pre-release signal testing",
+        duration: "1 month",
+        output: "20-35 videos",
+        distribution: "10-25 accounts",
+        target: "Designed for 50K-300K views",
+        stream: "Connect to artist profile, track page, and ad-ready assets",
+        detail:
+          "Test chorus hooks, lyric moments, artist footage, mood edits, and audience angles to find what earns response early.",
       },
       {
-        artist: "International Indie Label",
-        song: "Japan Focus Track",
-        objective: "Create cultural context for Japan",
-        videos: "30-50 planned pieces",
-        views: "Reviewed weekly in Japan market",
-        engagement: "Comment quality and retention analysis",
-        best: "Discovery format translating overseas momentum into Japanese context",
-        duration: "3 weeks",
-        strategy: "Move beyond direct translation by reframing the track through scenes, moods, and comparisons Japanese listeners understand.",
-        result: "Find Japanese-language messaging that can support paid, PR, and creator outreach.",
+        title: "Market Build",
+        use: "Release-week momentum",
+        duration: "2 months",
+        output: "50-80 videos",
+        distribution: "25-60 accounts",
+        target: "Designed for 200K-1M views",
+        stream: "Strengthen paths to Spotify, Apple Music, and YouTube",
+        detail:
+          "Scale the strongest concepts from the first wave and separate Japan-facing creative from global-facing creative.",
+      },
+      {
+        title: "Scale System",
+        use: "Catalog or priority-track operation",
+        duration: "3 months",
+        output: "90-150 videos",
+        distribution: "50-120 accounts",
+        target: "Designed for 500K-3M views",
+        stream: "Reuse winning clips for paid, PR, playlist, and creator outreach",
+        detail:
+          "Run weekly creative refreshes so the song keeps gaining new scenes, new contexts, and new audience entry points.",
       },
     ],
     aboutTitle: "We do not simply advertise songs. We create reasons for the internet to use them.",
@@ -510,25 +544,25 @@ export default function Home() {
         <div className="mx-auto max-w-[1540px]">
           <div className="grid gap-8 lg:grid-cols-[0.6fr_1fr]">
             <div>
-              <h2 className="text-5xl font-black uppercase leading-none sm:text-7xl">{t.caseTitle}</h2>
-              <p className="mt-7 text-base leading-relaxed text-black/62">{t.caseNote}</p>
+              <h2 className="text-5xl font-black uppercase leading-none sm:text-7xl">{t.plansTitle}</h2>
+              <p className="mt-7 text-base leading-relaxed text-black/62">{t.plansNote}</p>
             </div>
-            <div className="grid gap-6">
-              {t.cases.map((item) => (
-                <article key={item.artist} className="border border-black/12 bg-white p-6">
+            <div className="grid gap-px bg-black/12">
+              {t.plans.map((item) => (
+                <article key={item.title} className="bg-white p-6 transition hover:bg-[#fbfaf5]">
                   <div className="flex flex-wrap items-start justify-between gap-4">
                     <div>
-                      <p className="text-xs font-black uppercase tracking-[0.16em] text-black/38">{item.artist}</p>
-                      <h3 className="mt-2 text-3xl font-black uppercase">{item.song}</h3>
+                      <p className="text-xs font-black uppercase tracking-[0.16em] text-black/38">{item.use}</p>
+                      <h3 className="mt-2 text-4xl font-black uppercase leading-none">{item.title}</h3>
                     </div>
-                    <p className="bg-[#f5f1e9] px-3 py-2 text-xs font-black uppercase tracking-[0.12em]">{item.duration}</p>
+                    <p className="bg-[#d6ff3f] px-3 py-2 text-xs font-black uppercase tracking-[0.12em]">{item.duration}</p>
                   </div>
                   <div className="mt-8 grid gap-px bg-black/10 md:grid-cols-4">
                     {[
-                      ["Objective", item.objective],
-                      ["Videos", item.videos],
-                      ["Views", item.views],
-                      ["Engagement", item.engagement],
+                      [t.planLabels.output, item.output],
+                      [t.planLabels.distribution, item.distribution],
+                      [t.planLabels.target, item.target],
+                      [t.planLabels.stream, item.stream],
                     ].map(([label, value]) => (
                       <div key={label} className="bg-white p-4">
                         <p className="text-[10px] font-black uppercase tracking-[0.16em] text-black/35">{label}</p>
@@ -536,10 +570,8 @@ export default function Home() {
                       </div>
                     ))}
                   </div>
-                  <div className="mt-6 grid gap-5 md:grid-cols-3">
-                    <CaseDetail label="Best Creative" value={item.best} />
-                    <CaseDetail label="Strategy" value={item.strategy} />
-                    <CaseDetail label="Result" value={item.result} />
+                  <div className="mt-6">
+                    <CaseDetail label={t.planLabels.detail} value={item.detail} />
                   </div>
                 </article>
               ))}
