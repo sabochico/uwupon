@@ -27,7 +27,7 @@ const content = {
     cta: "キャンペーンを相談する",
     secondary: "仕組みを見る",
     eyebrow: "日本の音楽市場に特化したショートフォーム戦略",
-    hero: "1曲を、何十本もの発見機会へ。",
+    hero: "1曲から何十本ものショート動画へ",
     intro:
       "uwuponは、楽曲からショート動画の企画をつくり、まとめて制作し、複数の投稿面へ配信し、反応を見ながら改善する音楽マーケティングスタジオです。",
     proofTitle: "レーベル、マネジメント、アーティストチームのための実行体制。",
@@ -421,12 +421,12 @@ export default function Home() {
           <div className={`grid gap-8 lg:items-start ${isJp ? "lg:grid-cols-[0.86fr_0.74fr]" : "lg:grid-cols-[1fr_0.78fr]"}`}>
             <div>
               <p className={`mb-7 text-xs font-black text-black/55 ${isJp ? "tracking-[0.08em]" : "uppercase tracking-[0.2em]"}`}>{t.eyebrow}</p>
-              <h1 className={isJp ? "jp-display grid max-w-[9.5em] gap-1 text-[clamp(3rem,6.8vw,7.8rem)] font-black leading-[1.02] tracking-normal" : "grid max-w-[18ch] gap-1 text-[clamp(3rem,7.5vw,9.2rem)] font-black uppercase leading-[0.92] tracking-normal"}>
+              <h1 className={isJp ? "jp-display grid max-w-[10.5em] gap-2 text-[clamp(2.65rem,5.8vw,6.7rem)] font-black leading-[1.08] tracking-normal" : "grid max-w-[18ch] gap-1 text-[clamp(3rem,7.5vw,9.2rem)] font-black uppercase leading-[0.92] tracking-normal"}>
                 {isJp ? (
                   <>
-                    <span>1曲から、</span>
+                    <span>1曲から</span>
                     <span>何十本もの</span>
-                    <span>ショート動画へ。</span>
+                    <span>ショート動画へ</span>
                   </>
                 ) : (
                   <>

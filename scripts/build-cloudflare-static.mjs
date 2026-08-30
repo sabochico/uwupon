@@ -55,7 +55,7 @@ const html = String.raw`<!doctype html>
       .hero:before { content:""; position:absolute; inset:0; opacity:.12; background-image:linear-gradient(#161616 1px, transparent 1px), linear-gradient(90deg,#161616 1px,transparent 1px); background-size:42px 42px; }
       .hero-grid { position:relative; display:grid; grid-template-columns:.86fr .74fr; gap:32px; align-items:start; min-height:calc(100vh - 150px); align-content:space-between; }
       .eyebrow { margin:0 0 28px; font-size:12px; font-weight:900; letter-spacing:.08em; color:#0009; }
-      h1 { margin:0; max-width:9.5em; font-size:clamp(3rem,6.8vw,7.8rem); line-height:1.02; font-weight:900; letter-spacing:0; text-wrap:balance; word-break:keep-all; overflow-wrap:anywhere; }
+      h1 { margin:0; max-width:10.5em; font-size:clamp(2.65rem,5.8vw,6.7rem); line-height:1.08; font-weight:900; letter-spacing:0; text-wrap:balance; word-break:keep-all; overflow-wrap:anywhere; }
       .en h1 { max-width:18ch; font-size:clamp(3rem,7.5vw,9.2rem); line-height:.92; text-transform:uppercase; }
       .hero-img { position:relative; overflow:hidden; border:1px solid #0003; background:#000; box-shadow:0 24px 80px #0005; margin-top:48px; }
       .hero-img img { display:block; width:100%; aspect-ratio:16/10; object-fit:cover; opacity:.9; }
@@ -139,7 +139,7 @@ const html = String.raw`<!doctype html>
       @media (max-width: 760px) {
         .section { padding:72px 20px; }
         .hero { padding-top:118px; }
-        h1 { font-size:clamp(48px,14vw,78px); }
+        h1 { font-size:clamp(44px,12vw,68px); }
         .en h1 { font-size:clamp(44px,12vw,72px); }
         .tile-grid, .stats, .steps, .services, .compare, .eco, .metrics, .split, .form-grid, .legal { grid-template-columns:1fr; }
         .panel { padding:28px; min-height:300px; }
@@ -164,7 +164,7 @@ const html = String.raw`<!doctype html>
         <div class="wrap hero-grid">
           <div>
             <p class="eyebrow" data-t="eyebrow">日本の音楽市場に特化したショートフォーム戦略</p>
-            <h1 id="hero-title"><span>1曲から、</span><br /><span>何十本もの</span><br /><span>ショート動画へ。</span></h1>
+            <h1 id="hero-title"><span>1曲から</span><br /><span>何十本もの</span><br /><span>ショート動画へ</span></h1>
           </div>
           <div class="hero-img"><img src="/og.png" alt="uwupon short-form music content ecosystem visual" /><div class="hero-caption"><span>Release Signal Map</span><b>50+</b></div></div>
           <div class="hero-bottom">
@@ -188,7 +188,7 @@ const html = String.raw`<!doctype html>
     <script>
       const C = {
         jp: {
-          cta:"キャンペーンを相談する", secondary:"仕組みを見る", eyebrow:"日本の音楽市場に特化したショートフォーム戦略", hero:["1曲から、","何十本もの","ショート動画へ。"],
+          cta:"キャンペーンを相談する", secondary:"仕組みを見る", eyebrow:"日本の音楽市場に特化したショートフォーム戦略", hero:["1曲から","何十本もの","ショート動画へ"],
           intro:"uwuponは、楽曲からショート動画の企画をつくり、まとめて制作し、複数の投稿面へ配信し、反応を見ながら改善する音楽マーケティングスタジオです。",
           proofTitle:"レーベル、マネジメント、アーティストチームのための実行体制。", proofCopy:"新曲リリース、旧譜の再発見、海外展開、日本市場へのローカライズまで。高額な単発投稿に頼り切らず、複数の企画と制作量で反応の入口を広げます。",
           audience:["Record Labels","Artist Management","Music Publishers","Entertainment Agencies","Independent Artists","Japan / Global"], stats:[["3","主要ショートフォーム面"],["50+","1曲から設計できる動画案"],["7","戦略からレポートまでの工程"]],
