@@ -173,7 +173,7 @@ const content = {
     cta: "START A CAMPAIGN",
     secondary: "SEE HOW IT WORKS",
     eyebrow: "SHORT-FORM MUSIC STRATEGY FOR JAPAN",
-    hero: "ONE SONG. MANY WAYS TO BE FOUND.",
+    hero: "ONE SONG. CHANGES EVERYTHING.",
     intro:
       "uwupon turns songs into short-form concepts, produces them at volume, distributes them across relevant accounts, then tests and improves the campaign around audience response.",
     proofTitle: "Built for labels, management teams, and modern artists.",
@@ -431,8 +431,8 @@ export default function Home() {
                 ) : (
                   <>
                     <span>ONE SONG.</span>
-                    <span>MANY WAYS</span>
-                    <span>TO BE FOUND.</span>
+                    <span>CHANGES</span>
+                    <span>EVERYTHING.</span>
                   </>
                 )}
               </h1>
