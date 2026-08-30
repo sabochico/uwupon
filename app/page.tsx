@@ -332,6 +332,7 @@ export default function Home() {
   const [status, setStatus] = useState<"idle" | "sending" | "success">("idle");
   const [activeStep, setActiveStep] = useState(0);
   const t = useMemo(() => content[lang], [lang]);
+  const isJp = lang === "jp";
 
   useEffect(() => {
     const browserLang = navigator.language.toLowerCase();
@@ -380,25 +381,25 @@ export default function Home() {
             <BrandMark />
             <span className="text-base font-black lowercase tracking-[0.08em]">uwupon</span>
           </a>
-          <div className="hidden items-center gap-8 lg:flex">
+          <div className="hidden items-center gap-7 xl:flex">
             {t.nav.map(([item, id]) => (
               <a key={id} href={`#${id}`} className="text-xs font-bold tracking-[0.16em] text-black/62 transition hover:text-black">
                 {item}
               </a>
             ))}
           </div>
-          <div className="hidden items-center gap-4 lg:flex">
+          <div className="hidden items-center gap-4 xl:flex">
             <LanguageToggle lang={lang} setLang={setLang} />
             <a href="#contact" className="bg-[#d6ff3f] px-5 py-3 text-xs font-black uppercase tracking-[0.12em] transition hover:bg-[#161616] hover:text-white">
               {t.cta}
             </a>
           </div>
-          <button className="grid h-11 w-11 place-items-center border border-black/20 lg:hidden" onClick={() => setMenuOpen((value) => !value)} aria-label="Open navigation" aria-expanded={menuOpen}>
+          <button className="grid h-11 w-11 place-items-center border border-black/20 xl:hidden" onClick={() => setMenuOpen((value) => !value)} aria-label="Open navigation" aria-expanded={menuOpen}>
             <span className="h-0.5 w-5 bg-black shadow-[0_7px_0_#000,0_-7px_0_#000]" />
           </button>
         </div>
         {menuOpen && (
-          <div className="border-t border-black/10 bg-[#f5f1e9] px-5 py-5 lg:hidden">
+          <div className="border-t border-black/10 bg-[#f5f1e9] px-5 py-5 xl:hidden">
             <div className="grid gap-4">
               {t.nav.map(([item, id]) => (
                 <a key={id} href={`#${id}`} onClick={() => setMenuOpen(false)} className="text-xl font-black">
@@ -417,11 +418,19 @@ export default function Home() {
       <section id="top" className="relative min-h-screen px-5 pb-16 pt-32 sm:px-8 lg:px-12">
         <div className="absolute inset-0 opacity-[0.12] [background-image:linear-gradient(#161616_1px,transparent_1px),linear-gradient(90deg,#161616_1px,transparent_1px)] [background-size:42px_42px]" />
         <div className="relative mx-auto grid min-h-[calc(100vh-8rem)] max-w-[1540px] content-between gap-12">
-          <div className="grid gap-8 lg:grid-cols-[1fr_0.78fr] lg:items-start">
+          <div className={`grid gap-8 lg:items-start ${isJp ? "lg:grid-cols-[0.86fr_0.74fr]" : "lg:grid-cols-[1fr_0.78fr]"}`}>
             <div>
-              <p className="mb-7 text-xs font-black uppercase tracking-[0.2em] text-black/55">{t.eyebrow}</p>
-              <h1 className="max-w-[12ch] text-[clamp(3.35rem,10vw,12rem)] font-black uppercase leading-[0.86] tracking-normal">
-                {t.hero}
+              <p className={`mb-7 text-xs font-black text-black/55 ${isJp ? "tracking-[0.08em]" : "uppercase tracking-[0.2em]"}`}>{t.eyebrow}</p>
+              <h1 className={isJp ? "jp-display grid max-w-[9.5em] gap-1 text-[clamp(3rem,6.8vw,7.8rem)] font-black leading-[1.02] tracking-normal" : "max-w-[12ch] text-[clamp(3.35rem,10vw,12rem)] font-black uppercase leading-[0.86] tracking-normal"}>
+                {isJp ? (
+                  <>
+                    <span>1曲から、</span>
+                    <span>何十本もの</span>
+                    <span>ショート動画へ。</span>
+                  </>
+                ) : (
+                  t.hero
+                )}
               </h1>
             </div>
             <div className="relative mt-4 overflow-hidden border border-black/15 bg-black shadow-2xl lg:mt-12">
@@ -449,7 +458,7 @@ export default function Home() {
       <section id="work" className="border-y border-black/10 bg-[#161616] px-5 py-10 text-white sm:px-8 lg:px-12">
         <div className="mx-auto grid max-w-[1540px] gap-10 lg:grid-cols-[0.65fr_1fr] lg:items-center">
           <div>
-            <h2 className="text-3xl font-black uppercase tracking-normal sm:text-5xl">{t.proofTitle}</h2>
+            <h2 className={`text-3xl font-black tracking-normal sm:text-5xl ${isJp ? "jp-display leading-[1.15]" : "uppercase"}`}>{t.proofTitle}</h2>
             <p className="mt-5 max-w-xl text-sm leading-relaxed text-white/58">{t.proofCopy}</p>
           </div>
           <div className="grid gap-px bg-white/15 md:grid-cols-3">
@@ -483,7 +492,7 @@ export default function Home() {
           <div className="grid gap-10 lg:grid-cols-[0.52fr_1fr]">
             <div>
               <p className="text-xs font-black uppercase tracking-[0.2em] text-black/45">The Model</p>
-              <h2 className="mt-4 text-5xl font-black uppercase leading-none sm:text-7xl">{t.modelTitle}</h2>
+              <h2 className={`mt-4 text-5xl font-black sm:text-7xl ${isJp ? "jp-display leading-[1.12]" : "uppercase leading-none"}`}>{t.modelTitle}</h2>
               <p className="mt-8 text-lg leading-relaxed text-black/65">{t.modelCopy}</p>
             </div>
             <ol className="grid gap-px bg-black/15 md:grid-cols-2">
@@ -502,7 +511,7 @@ export default function Home() {
 
       <section id="services" className="bg-white px-5 py-24 sm:px-8 lg:px-12">
         <div className="mx-auto max-w-[1540px]">
-          <h2 className="max-w-5xl text-5xl font-black uppercase leading-none sm:text-7xl">{t.servicesTitle}</h2>
+          <h2 className={`max-w-5xl text-5xl font-black sm:text-7xl ${isJp ? "jp-display leading-[1.12]" : "uppercase leading-none"}`}>{t.servicesTitle}</h2>
           <div className="mt-14 grid gap-px bg-black/12 md:grid-cols-2 xl:grid-cols-3">
             {t.services.map(([title, body], index) => (
               <article key={title} className={`min-h-72 bg-white p-7 transition hover:bg-[#f5f1e9] ${index === 6 ? "xl:col-span-3" : ""}`}>
@@ -517,7 +526,7 @@ export default function Home() {
 
       <section className="bg-[#161616] px-5 py-24 text-white sm:px-8 lg:px-12">
         <div className="mx-auto max-w-[1540px]">
-          <h2 className="max-w-4xl text-5xl font-black uppercase leading-none sm:text-7xl">{t.whyTitle}</h2>
+          <h2 className={`max-w-4xl text-5xl font-black sm:text-7xl ${isJp ? "jp-display leading-[1.12]" : "uppercase leading-none"}`}>{t.whyTitle}</h2>
           <div className="mt-14 grid gap-px bg-white/15 lg:grid-cols-2">
             <Compare title={t.traditional} items={t.traditionalList} muted />
             <Compare title={t.ours} items={t.oursList} />
@@ -528,7 +537,7 @@ export default function Home() {
       <section className="relative overflow-hidden bg-[#d6ff3f] px-5 py-24 sm:px-8 lg:px-12">
         <div className="absolute inset-y-0 right-0 hidden w-1/3 bg-[repeating-linear-gradient(0deg,#161616_0_3px,transparent_3px_18px)] opacity-10 lg:block" />
         <div className="relative mx-auto max-w-[1540px]">
-          <h2 className="max-w-5xl text-5xl font-black uppercase leading-none sm:text-8xl">{t.ecosystemTitle}</h2>
+          <h2 className={`max-w-5xl text-5xl font-black sm:text-8xl ${isJp ? "jp-display leading-[1.12]" : "uppercase leading-none"}`}>{t.ecosystemTitle}</h2>
           <div className="mt-14 grid gap-4 md:grid-cols-4">
             {t.ecosystem.map(([number, label]) => (
               <div key={label} className="border-t-4 border-black pt-5">
@@ -544,7 +553,7 @@ export default function Home() {
         <div className="mx-auto max-w-[1540px]">
           <div className="grid gap-8 lg:grid-cols-[0.6fr_1fr]">
             <div>
-              <h2 className="text-5xl font-black uppercase leading-none sm:text-7xl">{t.plansTitle}</h2>
+              <h2 className={`text-5xl font-black sm:text-7xl ${isJp ? "jp-display leading-[1.12]" : "uppercase leading-none"}`}>{t.plansTitle}</h2>
               <p className="mt-7 text-base leading-relaxed text-black/62">{t.plansNote}</p>
             </div>
             <div className="grid gap-px bg-black/12">
@@ -582,7 +591,7 @@ export default function Home() {
 
       <section id="about" className="bg-white px-5 py-24 sm:px-8 lg:px-12">
         <div className="mx-auto grid max-w-[1540px] gap-10 lg:grid-cols-[1fr_0.65fr] lg:items-end">
-          <h2 className="text-5xl font-black uppercase leading-none sm:text-8xl">{t.aboutTitle}</h2>
+          <h2 className={`text-5xl font-black sm:text-8xl ${isJp ? "jp-display leading-[1.12]" : "uppercase leading-none"}`}>{t.aboutTitle}</h2>
           <p className="text-xl leading-relaxed text-black/66">{t.about}</p>
         </div>
       </section>
@@ -591,7 +600,7 @@ export default function Home() {
         <div className="mx-auto grid max-w-[1540px] gap-12 lg:grid-cols-[0.62fr_1fr]">
           <div>
             <p className="text-xs font-black uppercase tracking-[0.2em] text-[#d6ff3f]">Contact</p>
-            <h2 className="mt-5 text-5xl font-black uppercase leading-none sm:text-7xl">{t.formTitle}</h2>
+            <h2 className={`mt-5 text-5xl font-black sm:text-7xl ${isJp ? "jp-display leading-[1.12]" : "uppercase leading-none"}`}>{t.formTitle}</h2>
             <p className="mt-8 max-w-xl text-lg leading-relaxed text-white/62">{t.formIntro}</p>
           </div>
           <form action="https://formsubmit.co/aweandco@gmail.com" method="POST" onSubmit={submit} noValidate className="grid gap-5">
