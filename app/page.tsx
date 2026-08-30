@@ -418,10 +418,10 @@ export default function Home() {
       <section id="top" className="relative min-h-screen px-5 pb-16 pt-32 sm:px-8 lg:px-12">
         <div className="absolute inset-0 opacity-[0.12] [background-image:linear-gradient(#161616_1px,transparent_1px),linear-gradient(90deg,#161616_1px,transparent_1px)] [background-size:42px_42px]" />
         <div className="relative mx-auto grid min-h-[calc(100vh-8rem)] max-w-[1540px] content-between gap-12">
-          <div className={`grid gap-8 lg:items-start ${isJp ? "lg:grid-cols-[0.86fr_0.74fr]" : "lg:grid-cols-[1fr_0.78fr]"}`}>
+          <div className={`grid gap-8 lg:items-start ${isJp ? "lg:grid-cols-[minmax(0,0.9fr)_minmax(460px,0.82fr)]" : "lg:grid-cols-[minmax(0,0.95fr)_minmax(500px,0.82fr)]"}`}>
             <div>
               <p className={`mb-7 text-xs font-black text-black/55 ${isJp ? "tracking-[0.08em]" : "uppercase tracking-[0.2em]"}`}>{t.eyebrow}</p>
-              <h1 className={isJp ? "jp-display jp-hero-title font-black" : "grid gap-[0.04em] text-[clamp(2.6rem,9.5vw,8.6rem)] font-black uppercase leading-[0.9] tracking-normal [&>span]:whitespace-nowrap"}>
+              <h1 className={isJp ? "jp-display jp-hero-title font-black" : "grid gap-[0.04em] text-[clamp(2.6rem,8.3vw,7.5rem)] font-black uppercase leading-[0.9] tracking-normal [&>span]:whitespace-nowrap"}>
                 {isJp ? (
                   <>
                     <span>1曲から</span>
@@ -437,8 +437,8 @@ export default function Home() {
                 )}
               </h1>
             </div>
-            <div className="relative mt-4 overflow-hidden border border-black/15 bg-black shadow-2xl lg:mt-12">
-              <img src="/og.png" alt="uwupon short-form music content ecosystem visual" className="aspect-[16/10] w-full object-cover opacity-90" />
+            <div className="relative mt-4 overflow-hidden border border-black/15 bg-black shadow-2xl lg:mt-5 lg:min-h-[360px] xl:min-h-[430px]">
+              <img src="/og.png" alt="uwupon short-form music content ecosystem visual" className="aspect-[16/10] h-full min-h-[260px] w-full object-cover opacity-90 lg:aspect-auto" />
               <div className="absolute inset-x-0 bottom-0 flex items-end justify-between bg-gradient-to-t from-black via-black/65 to-transparent p-5 text-white">
                 <p className="text-xs font-black uppercase tracking-[0.18em] text-white/70">Release Signal Map</p>
                 <p className="text-5xl font-black text-[#d6ff3f]">50+</p>
