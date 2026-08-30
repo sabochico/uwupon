@@ -24,6 +24,7 @@ body {
     Arial,
     Helvetica,
     sans-serif;
+  overflow-x: hidden;
 }
 
 html {
@@ -46,8 +47,8 @@ html {
   font-feature-settings: "palt";
   line-break: strict;
   text-wrap: balance;
-  word-break: keep-all;
-  overflow-wrap: normal;
+  word-break: normal;
+  overflow-wrap: break-word;
 }
 
 .jp-hero-title {

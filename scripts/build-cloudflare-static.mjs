@@ -33,7 +33,7 @@ const html = String.raw`<!doctype html>
       :root { --bg:#f5f1e9; --ink:#161616; --lime:#d6ff3f; --red:#ff5b45; }
       * { box-sizing: border-box; }
       html { scroll-behavior: smooth; }
-      body { margin:0; background:var(--bg); color:var(--ink); font-family: Inter, "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Noto Sans JP", Arial, sans-serif; }
+      body { margin:0; overflow-x:hidden; background:var(--bg); color:var(--ink); font-family: Inter, "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Noto Sans JP", Arial, sans-serif; }
       ::selection { background:var(--lime); color:var(--ink); }
       a { color: inherit; text-decoration: none; }
       button, input, textarea { font: inherit; }
@@ -70,7 +70,7 @@ const html = String.raw`<!doctype html>
       .intro { margin:0; font-size:clamp(20px,2vw,28px); line-height:1.65; color:#000b; }
       .dark { background:var(--ink); color:white; }
       .proof { display:grid; grid-template-columns:.65fr 1fr; gap:40px; align-items:center; }
-      h2 { margin:0; font-size:clamp(40px,4.8vw,90px); line-height:1.14; font-weight:900; letter-spacing:.01em; font-feature-settings:"palt"; line-break:strict; text-wrap:balance; word-break:keep-all; overflow-wrap:normal; }
+      h2 { margin:0; font-size:clamp(40px,4.8vw,90px); line-height:1.14; font-weight:900; letter-spacing:.01em; font-feature-settings:"palt"; line-break:strict; text-wrap:balance; word-break:normal; overflow-wrap:break-word; }
       .en h2 { line-height:.95; text-transform:uppercase; }
       .muted { color:inherit; opacity:.65; line-height:1.75; }
       .tile-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:#fff3; }
