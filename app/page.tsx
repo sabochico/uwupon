@@ -173,7 +173,7 @@ const content = {
     cta: "START A CAMPAIGN",
     secondary: "SEE HOW IT WORKS",
     eyebrow: "SHORT-FORM MUSIC STRATEGY FOR JAPAN",
-    hero: "ONE SONG. DOZENS OF DISCOVERY MOMENTS.",
+    hero: "ONE SONG. MANY WAYS TO BE FOUND.",
     intro:
       "uwupon turns songs into short-form concepts, produces them at volume, distributes them across relevant accounts, then tests and improves the campaign around audience response.",
     proofTitle: "Built for labels, management teams, and modern artists.",
@@ -421,7 +421,7 @@ export default function Home() {
           <div className={`grid gap-8 lg:items-start ${isJp ? "lg:grid-cols-[0.86fr_0.74fr]" : "lg:grid-cols-[1fr_0.78fr]"}`}>
             <div>
               <p className={`mb-7 text-xs font-black text-black/55 ${isJp ? "tracking-[0.08em]" : "uppercase tracking-[0.2em]"}`}>{t.eyebrow}</p>
-              <h1 className={isJp ? "jp-display jp-hero-title font-black" : "grid max-w-[18ch] gap-1 text-[clamp(3rem,7.5vw,9.2rem)] font-black uppercase leading-[0.92] tracking-normal"}>
+              <h1 className={isJp ? "jp-display jp-hero-title font-black" : "grid gap-[0.04em] text-[clamp(2.6rem,9.5vw,8.6rem)] font-black uppercase leading-[0.9] tracking-normal [&>span]:whitespace-nowrap"}>
                 {isJp ? (
                   <>
                     <span>1曲から</span>
@@ -431,8 +431,8 @@ export default function Home() {
                 ) : (
                   <>
                     <span>ONE SONG.</span>
-                    <span>DOZENS OF</span>
-                    <span>DISCOVERY MOMENTS.</span>
+                    <span>MANY WAYS</span>
+                    <span>TO BE FOUND.</span>
                   </>
                 )}
               </h1>
