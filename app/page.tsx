@@ -24,95 +24,96 @@ const content = {
       ["ABOUT", "about"],
       ["CONTACT", "contact"],
     ],
-    cta: "キャンペーンを相談",
+    cta: "キャンペーンを相談する",
     secondary: "仕組みを見る",
-    eyebrow: "TOKYO SHORT-FORM MUSIC INFRASTRUCTURE",
-    hero: "曲を、無視できない存在へ。",
+    eyebrow: "日本の音楽市場に特化したショートフォーム戦略",
+    hero: "曲が、見つかる理由をつくる。",
     intro:
-      "楽曲を起点に、戦略、企画、量産、配信、検証までを一気通貫で設計する、音楽特化のショートフォーム・マーケティングスタジオです。",
-    proofTitle: "音楽が動く場所に合わせて設計する。",
+      "uwuponは、楽曲を起点に企画、ショート動画制作、配信、検証、改善までを設計する音楽マーケティングスタジオです。TikTok、Instagram Reels、YouTube Shortsで、曲に触れるきっかけを増やします。",
+    proofTitle: "レーベル、マネジメント、アーティストチームのための実行体制。",
     proofCopy:
-      "実績ロゴは後から差し替え可能な編集枠です。未提供のクライアント名や結果は掲載していません。",
-    logoNote: "EDITABLE LOGO SLOT",
+      "新曲リリース、旧譜の再発見、海外展開、日本市場へのローカライズまで。高額な単発投稿に頼り切らず、複数の企画と制作量で反応の入口を広げます。",
+    audience: ["Record Labels", "Artist Management", "Music Publishers", "Entertainment Agencies", "Independent Artists", "Japan / Global"],
     stats: [
       ["3", "主要ショートフォーム面"],
-      ["50+", "1曲から展開可能な制作本数"],
-      ["7", "戦略から報告までの運用工程"],
+      ["50+", "1曲から設計できる動画案"],
+      ["7", "戦略からレポートまでの工程"],
     ],
-    problemTitle: "従来型の音楽プロモーションは、試行回数が少なすぎる。",
+    problemTitle: "音楽プロモーションは、試せる回数で差がつく。",
     problem:
-      "高額な単発投稿、限られたクリエイティブ、長い制作サイクル。楽曲の可能性がひとつの表現に閉じ込められてしまうことがあります。",
-    answerTitle: "私たちは、楽曲の使われ方を増やす。",
+      "単発のインフルエンサー投稿だけでは、どの文脈で曲が届くのか見えにくい。制作本数が少ないほど、曲の可能性はひとつの表現に固定されます。",
+    answerTitle: "uwuponは、曲の使われ方を増やします。",
     answer:
-      "フック、字幕、編集、ミーム、ストーリー、コミュニティ角度を複数設計し、反応を見ながら制作と配信を更新します。",
-    modelTitle: "ONE SONG. MANY SIGNALS.",
+      "サビ、歌詞、ムード、ストーリー、編集テンポ、ミーム性、コミュニティの文脈を複数に分解。反応を見ながら、強い企画へ制作と配信を集中させます。",
+    modelTitle: "1曲から、複数の発見経路へ。",
     modelCopy:
-      "1曲を、文化に届くための複数の入口へ分解します。20秒で全体像が伝わるよう、工程は明快に、運用は緻密に。",
+      "楽曲の魅力をひとつの広告に閉じ込めず、ショートフォーム上で使われやすい形へ展開します。流れはシンプルに、運用は細かく。",
     steps: [
-      ["SONG", "楽曲、発売日、狙う市場、既存素材を把握。"],
-      ["STRATEGY", "フック、文脈、コミュニティ、言語圏を設計。"],
-      ["CREATE", "複数形式のショート動画を高密度に制作。"],
-      ["DISTRIBUTE", "関連性のあるアカウントや面へ展開。"],
-      ["TEST", "視聴維持、保存、コメント、二次利用の兆しを確認。"],
-      ["SCALE", "勝ち筋の表現へ制作量と配信を集中。"],
-      ["REPORT", "次の判断につながる言葉で結果を共有。"],
+      ["SONG", "楽曲、発売日、ターゲット市場、既存素材を確認。"],
+      ["STRATEGY", "誰に、どの文脈で、どのフックを届けるかを設計。"],
+      ["CREATE", "字幕、編集、構成、テンポを変えながら複数案を制作。"],
+      ["DISTRIBUTE", "関連性のある投稿面、アカウント、コミュニティへ展開。"],
+      ["TEST", "視聴維持、保存、コメント、共有、二次利用の兆しを読む。"],
+      ["SCALE", "反応の強い表現へ制作量と配信量を寄せる。"],
+      ["REPORT", "次の判断につながる形で成果と学びを整理。"],
     ],
-    servicesTitle: "制作会社ではなく、リリースのためのコンテンツ基盤。",
+    servicesTitle: "リリースのためのコンテンツ運用基盤。",
     services: [
-      ["Short-Form Campaigns", "TikTok、Reels、Shortsに最適化した高ボリュームの楽曲キャンペーン。"],
-      ["Creative Strategy", "曲のフック、文化的文脈、参加しやすい使われ方、届けるコミュニティを特定。"],
-      ["Content Production", "ネイティブに消費される編集、字幕、構成、テンポで複数バリエーションを制作。"],
-      ["Distribution", "関連性のあるアカウント、チャンネル、投稿面へ計画的に展開。"],
-      ["Testing & Optimization", "反応の強い形式を見つけ、勝ち筋へ制作と配信を寄せる。"],
-      ["Campaign Intelligence", "本数、再生、反応、表現別パフォーマンス、オーディエンスの兆しを可視化。"],
-      ["Japan ↔ Global", "日本発の楽曲を海外へ。海外楽曲を日本の文脈へ。双方向で設計。"],
+      ["Short-Form Campaigns", "TikTok、Reels、Shortsに合わせた、楽曲中心のショートフォームキャンペーン。"],
+      ["Creative Strategy", "曲のフック、歌詞の切り口、参加しやすい使われ方、届けるべきコミュニティを整理。"],
+      ["Content Production", "広告っぽさを抑え、自然に見られる編集、字幕、構成で複数バリエーションを制作。"],
+      ["Distribution", "楽曲との相性を見ながら、関連アカウントや投稿面へ計画的に展開。"],
+      ["Testing & Optimization", "初動の反応から勝ち筋を見つけ、制作と配信を改善。"],
+      ["Campaign Intelligence", "投稿本数、再生、反応、企画別の傾向を、チームで判断しやすい形に整理。"],
+      ["Japan ↔ Global", "日本の楽曲を海外へ。海外の楽曲を日本の文脈へ。言語と文化の両方から設計。"],
     ],
-    whyTitle: "単発投稿ではなく、反応を増やす構造。",
-    traditional: "Traditional Influencer Marketing",
-    ours: "Pulse Matrix Model",
-    traditionalList: ["1人の投稿者", "1本の投稿", "高い単価", "検証が限定的", "短期間で終了"],
-    oursList: ["複数の企画軸", "多量のコンテンツ", "継続的な検証", "複数の観客角度", "再現可能な配信と改善"],
-    ecosystemTitle: "ONE SONG BECOMES A CONTENT ECOSYSTEM.",
+    whyTitle: "ひとつの投稿ではなく、反応が集まる構造をつくる。",
+    traditional: "従来型の単発施策",
+    ours: "uwuponの運用モデル",
+    traditionalList: ["投稿者が限られる", "表現の検証が少ない", "費用対効果を読みづらい", "短期間で終わりやすい", "次の施策に学びが残りにくい"],
+    oursList: ["複数の企画軸を同時に試す", "制作本数で接触機会を増やす", "反応を見て改善する", "日本語圏と海外圏を分けて設計する", "次のリリースに使える知見を残す"],
+    ecosystemTitle: "1曲を、コンテンツの生態系へ。",
     ecosystem: [
       ["01", "ONE SONG"],
       ["10", "CREATIVE DIRECTIONS"],
-      ["50+", "PIECES OF CONTENT"],
-      ["1000s", "DISTRIBUTION OPPORTUNITIES"],
+      ["50+", "CONTENT PIECES"],
+      ["1000s", "DISCOVERY MOMENTS"],
     ],
-    caseTitle: "差し替え前提のケーススタディ設計。",
-    caseNote: "以下は構造確認用のデモデータです。実在のアーティスト実績ではありません。",
+    caseTitle: "想定キャンペーン例。",
+    caseNote:
+      "以下は提案内容をイメージしやすくするための架空シナリオです。実在アーティストの実績ではありません。",
     cases: [
       {
-        artist: "Demo Artist A",
-        song: "Unreleased Single",
+        artist: "新進J-POPアーティスト",
+        song: "発売前シングル",
         objective: "発売前の認知形成",
-        videos: "48 demo videos",
-        views: "Replace with verified views",
-        engagement: "Replace with verified engagement",
-        best: "字幕フック + ライブ感のある編集",
-        duration: "4 weeks",
-        strategy: "サビ前の緊張感を複数の視点で切り出し、国内外で反応を比較。",
-        result: "実績確定後に数値と学びを入力する枠。",
+        videos: "45-60本想定",
+        views: "初動反応を見て最適化",
+        engagement: "保存、コメント、音源使用を確認",
+        best: "歌詞の一節を日常の感情に接続する字幕フック",
+        duration: "4週間",
+        strategy: "サビ前の高揚感、歌詞の共感性、本人素材の熱量を別々の企画として検証。",
+        result: "反応の強い切り口を特定し、発売週の追加制作へ接続。",
       },
       {
-        artist: "Demo Artist B",
-        song: "Catalog Track",
-        objective: "旧譜の再発見",
-        videos: "36 demo videos",
-        views: "Replace with verified views",
-        engagement: "Replace with verified engagement",
-        best: "コメント誘発型のストーリー展開",
-        duration: "3 weeks",
-        strategy: "歌詞の一節を日常シーンに接続し、保存と共有の兆しを検証。",
-        result: "実績確定後に数値と学びを入力する枠。",
+        artist: "海外インディーレーベル",
+        song: "日本展開用フォーカストラック",
+        objective: "日本市場での文脈づくり",
+        videos: "30-50本想定",
+        views: "国内反応を週次で確認",
+        engagement: "コメント内容と視聴維持を分析",
+        best: "海外での反応を日本語文脈に翻訳した紹介型フォーマット",
+        duration: "3週間",
+        strategy: "直訳ではなく、日本のリスナーが入りやすい比較、ムード、シーンの文脈に変換。",
+        result: "日本語圏で反応する訴求を見つけ、広告・PR素材にも転用。",
       },
     ],
-    aboutTitle: "広告するのではなく、使われる理由をつくる。",
+    aboutTitle: "広告ではなく、インターネットが使いたくなる理由をつくる。",
     about:
-      "音楽発見は、プレイリストやメディア露出だけでは完結しません。TikTok、Reels、Shorts、ミーム、編集動画、コミュニティ、アルゴリズムの中で、曲は何度も違う意味を持ちます。Pulse Matrixは、その環境に合わせて楽曲の入口を増やすチームです。",
+      "いま音楽は、プレイリストやメディア露出だけで広がるものではありません。ショート動画、編集、ミーム、クリエイター、コミュニティ、アルゴリズムの中で、曲は何度も違う意味を持ちます。uwuponは、その環境に合わせて、楽曲が見つかる入口を増やします。",
     formTitle: "次のリリースを相談する。",
     formIntro:
-      "楽曲、発売日、目標市場、予算感を共有してください。初回の返答では、キャンペーン設計に必要な確認事項を整理して戻します。",
+      "楽曲、発売日、目標市場、予算感を共有してください。確認後、キャンペーン設計に必要な質問を整理してご連絡します。",
     fields: {
       name: "氏名",
       company: "会社 / チーム",
@@ -127,14 +128,21 @@ const content = {
     },
     placeholders: {
       budget: "例: ¥2,000,000 - ¥5,000,000",
-      market: "Japan / International / Both",
-      goal: "認知、UGC、海外展開、発売初週の話題化など",
-      info: "現在の素材、SNS状況、締切、参考キャンペーンなど",
+      market: "日本 / 海外 / 両方",
+      goal: "認知拡大、UGC、海外展開、発売週の話題化など",
+      info: "素材状況、SNS状況、締切、参考キャンペーンなど",
     },
-    required: "必須項目を確認してください。",
+    required: "必須項目を入力してください。",
     invalidEmail: "有効なメールアドレスを入力してください。",
     sending: "送信中...",
-    success: "ありがとうございます。キャンペーン相談内容を受け付けました。",
+    success: "ありがとうございます。お問い合わせを受け付けました。",
+    legalTitle: "Legal",
+    privacyTitle: "プライバシーポリシー",
+    privacy:
+      "お問い合わせで取得した氏名、会社名、メールアドレス、アーティスト名、プロジェクト情報は、キャンペーン相談への回答、提案、連絡、サービス改善の目的でのみ利用します。本人の同意なく第三者へ販売することはありません。",
+    termsTitle: "利用条件",
+    terms:
+      "本サイトの情報は一般的なサービス紹介を目的としています。キャンペーン内容、費用、納期、成果指標は個別の合意により決定されます。掲載内容の無断転載、複製、商用利用を禁止します。",
     footer: "Tokyo, Japan",
   },
   en: {
@@ -147,96 +155,97 @@ const content = {
     ],
     cta: "START A CAMPAIGN",
     secondary: "SEE HOW IT WORKS",
-    eyebrow: "TOKYO SHORT-FORM MUSIC INFRASTRUCTURE",
-    hero: "WE MAKE SONGS IMPOSSIBLE TO IGNORE.",
+    eyebrow: "SHORT-FORM MUSIC STRATEGY FOR JAPAN",
+    hero: "WE CREATE REASONS FOR SONGS TO BE FOUND.",
     intro:
-      "A music-first short-form marketing studio building the strategy, concepts, content volume, distribution, testing, optimization, and reporting around a release.",
-    proofTitle: "Built for the way music moves now.",
+      "uwupon is a music marketing studio built around short-form strategy, content production, distribution, testing, and optimization for TikTok, Instagram Reels, and YouTube Shorts.",
+    proofTitle: "Built for labels, management teams, and modern artists.",
     proofCopy:
-      "Logo slots are editable placeholders. No unverified client relationships or results are claimed.",
-    logoNote: "EDITABLE LOGO SLOT",
+      "For new releases, catalog rediscovery, Japan localization, and global expansion. We do not rely on a single expensive post; we build many credible entry points around a song.",
+    audience: ["Record Labels", "Artist Management", "Music Publishers", "Entertainment Agencies", "Independent Artists", "Japan / Global"],
     stats: [
       ["3", "core short-form surfaces"],
-      ["50+", "possible assets from one song"],
+      ["50+", "possible content ideas from one song"],
       ["7", "steps from strategy to reporting"],
     ],
-    problemTitle: "Traditional music promotion does not create enough attempts.",
+    problemTitle: "Music promotion is now a game of attempts.",
     problem:
-      "High-cost one-off influencer posts, limited creative volume, and slow campaign cycles can trap a song inside one expression before the audience has a chance to teach you what works.",
-    answerTitle: "We multiply the ways a song can be used.",
+      "One-off influencer posts can be expensive, narrow, and hard to learn from. When creative volume is low, a song gets trapped inside one expression before the audience can show what works.",
+    answerTitle: "uwupon multiplies the ways a song can be used.",
     answer:
-      "Hooks, captions, edits, memes, narratives, and community angles are designed in parallel, then sharpened through live audience response.",
-    modelTitle: "ONE SONG. MANY SIGNALS.",
+      "We break a track into hooks, captions, edits, narratives, meme angles, moods, and community contexts, then concentrate production around the strongest signals.",
+    modelTitle: "ONE SONG. MANY ENTRY POINTS.",
     modelCopy:
-      "A track is broken into multiple cultural entry points. The framework is simple enough to understand in 20 seconds and rigorous enough to run a serious release.",
+      "A track should not be reduced to one ad. We turn songs into short-form formats people can understand, share, comment on, and use.",
     steps: [
-      ["SONG", "Map the track, release window, target market, and existing assets."],
-      ["STRATEGY", "Define hooks, communities, languages, formats, and audience angles."],
-      ["CREATE", "Produce high-density short-form variations with native platform logic."],
-      ["DISTRIBUTE", "Deploy through relevant accounts, channels, and posting surfaces."],
-      ["TEST", "Read retention, saves, comments, re-use signals, and format response."],
-      ["SCALE", "Increase output around the concepts that earn the strongest signals."],
-      ["REPORT", "Turn campaign data into clear decisions for the next move."],
+      ["SONG", "Map the track, release date, target market, and available assets."],
+      ["STRATEGY", "Define the audience, cultural context, hooks, and campaign angles."],
+      ["CREATE", "Produce variations across captions, edits, structures, and pacing."],
+      ["DISTRIBUTE", "Deploy through relevant surfaces, accounts, and communities."],
+      ["TEST", "Read retention, saves, comments, shares, and re-use signals."],
+      ["SCALE", "Increase production and distribution around the strongest formats."],
+      ["REPORT", "Turn results into clear decisions for the release team."],
     ],
-    servicesTitle: "Not a production vendor. Content infrastructure for releases.",
+    servicesTitle: "Content infrastructure for music releases.",
     services: [
-      ["Short-Form Campaigns", "High-volume TikTok, Reels, and Shorts campaigns engineered around songs."],
-      ["Creative Strategy", "Identify hooks, communities, trends, usage moments, and cultural angles around a track."],
-      ["Content Production", "Create native-feeling video variations built for short-form consumption."],
-      ["Distribution", "Deploy content through relevant accounts, channels, and surfaces."],
-      ["Testing & Optimization", "Find the formats that generate response, then increase output around winners."],
+      ["Short-Form Campaigns", "Song-led TikTok, Reels, and Shorts campaigns built for high-volume creative testing."],
+      ["Creative Strategy", "Identify hooks, lyric angles, usage moments, communities, and platform-native formats."],
+      ["Content Production", "Create native-feeling short-form videos with variations in edit, caption, structure, and tempo."],
+      ["Distribution", "Deploy content through relevant accounts, channels, and campaign surfaces."],
+      ["Testing & Optimization", "Find the formats earning the best response, then increase output around winners."],
       ["Campaign Intelligence", "Readable reporting across output, views, engagement, creative performance, and audience signals."],
-      ["Japan ↔ Global", "Help Japanese music reach Western audiences and international music connect with Japanese audiences."],
+      ["Japan ↔ Global", "Help Japanese music travel internationally and international music enter Japan with cultural context."],
     ],
-    whyTitle: "Not one post. A system for more signals.",
-    traditional: "Traditional Influencer Marketing",
-    ours: "Pulse Matrix Model",
-    traditionalList: ["One creator", "One post", "High cost", "Limited testing", "Campaign fades quickly"],
-    oursList: ["Many creative concepts", "Many content pieces", "Continuous testing", "Multiple audience angles", "Repeatable distribution and optimization"],
+    whyTitle: "Not one post. A structure for more signal.",
+    traditional: "Traditional one-off promotion",
+    ours: "uwupon operating model",
+    traditionalList: ["Limited creators", "Few creative tests", "Hard-to-read efficiency", "Short campaign life", "Little learning for the next release"],
+    oursList: ["Multiple creative directions", "Higher content volume", "Continuous optimization", "Separate Japan and global angles", "Reusable learning for future releases"],
     ecosystemTitle: "ONE SONG BECOMES A CONTENT ECOSYSTEM.",
     ecosystem: [
       ["01", "ONE SONG"],
       ["10", "CREATIVE DIRECTIONS"],
-      ["50+", "PIECES OF CONTENT"],
-      ["1000s", "DISTRIBUTION OPPORTUNITIES"],
+      ["50+", "CONTENT PIECES"],
+      ["1000s", "DISCOVERY MOMENTS"],
     ],
-    caseTitle: "A reusable case-study system.",
-    caseNote: "The examples below use clearly marked demo data. They are not real artist results.",
+    caseTitle: "Representative campaign scenarios.",
+    caseNote:
+      "These are fictional scenarios to show how engagements are structured. They are not claims of past client results.",
     cases: [
       {
-        artist: "Demo Artist A",
-        song: "Unreleased Single",
-        objective: "Pre-release awareness",
-        videos: "48 demo videos",
-        views: "Replace with verified views",
-        engagement: "Replace with verified engagement",
-        best: "Caption-led hook + live-feeling edit",
+        artist: "Emerging J-pop Artist",
+        song: "Pre-release Single",
+        objective: "Build awareness before release week",
+        videos: "45-60 planned pieces",
+        views: "Optimized from early response",
+        engagement: "Saves, comments, and sound-use signals",
+        best: "Lyric-led caption hook connected to everyday emotion",
         duration: "4 weeks",
-        strategy: "Break the pre-chorus tension into several audience angles and compare Japan/global response.",
-        result: "A placeholder for verified numbers and campaign learning.",
+        strategy: "Test the pre-chorus lift, lyric relatability, and artist footage as separate creative angles.",
+        result: "Identify the strongest angle and feed it into release-week production.",
       },
       {
-        artist: "Demo Artist B",
-        song: "Catalog Track",
-        objective: "Catalog rediscovery",
-        videos: "36 demo videos",
-        views: "Replace with verified views",
-        engagement: "Replace with verified engagement",
-        best: "Comment-trigger story format",
+        artist: "International Indie Label",
+        song: "Japan Focus Track",
+        objective: "Create cultural context for Japan",
+        videos: "30-50 planned pieces",
+        views: "Reviewed weekly in Japan market",
+        engagement: "Comment quality and retention analysis",
+        best: "Discovery format translating overseas momentum into Japanese context",
         duration: "3 weeks",
-        strategy: "Connect a lyric fragment to everyday scenes and test for saves, shares, and comment velocity.",
-        result: "A placeholder for verified numbers and campaign learning.",
+        strategy: "Move beyond direct translation by reframing the track through scenes, moods, and comparisons Japanese listeners understand.",
+        result: "Find Japanese-language messaging that can support paid, PR, and creator outreach.",
       },
     ],
     aboutTitle: "We do not simply advertise songs. We create reasons for the internet to use them.",
     about:
-      "Music discovery no longer lives in one place. Songs move through TikTok, Reels, Shorts, memes, edits, communities, creators, and recommendation systems. Pulse Matrix is built for that environment: a team that expands the number of credible entry points around a release.",
+      "Music discovery no longer lives in one place. Songs move through short videos, edits, memes, creators, communities, and recommendation systems. uwupon is built for that environment: a team that expands the number of credible entry points around a release.",
     formTitle: "Start the next release conversation.",
     formIntro:
-      "Send the track, release timing, target market, and budget range. We will come back with the key questions needed to shape a campaign.",
+      "Send the track, release timing, target market, and budget range. After review, we will reply with the questions needed to shape a campaign.",
     fields: {
       name: "Name",
-      company: "Company",
+      company: "Company / Team",
       email: "Email",
       artist: "Artist",
       project: "Song / Project",
@@ -252,16 +261,23 @@ const content = {
       goal: "Awareness, UGC, global expansion, release-week heat...",
       info: "Existing assets, social context, deadline, reference campaigns...",
     },
-    required: "Please complete the required fields.",
+    required: "Please complete this required field.",
     invalidEmail: "Please enter a valid email address.",
     sending: "Sending...",
-    success: "Thank you. Your campaign request has been received.",
+    success: "Thank you. Your message has been received.",
+    legalTitle: "Legal",
+    privacyTitle: "Privacy Policy",
+    privacy:
+      "Information submitted through the contact form, including name, company, email address, artist, and project details, is used only to respond to inquiries, prepare proposals, communicate about services, and improve operations. We do not sell submitted personal information to third parties.",
+    termsTitle: "Terms",
+    terms:
+      "This website provides general information about uwupon services. Campaign scope, fees, timing, deliverables, and performance indicators are determined by individual agreement. Unauthorized copying, redistribution, or commercial use of site content is prohibited.",
     footer: "Tokyo, Japan",
   },
 } as const;
 
 const requiredFields: Field[] = ["name", "email", "artist", "project", "budget", "market", "goal"];
-const initialForm = {
+const initialForm: Record<Field, string> = {
   name: "",
   company: "",
   email: "",
@@ -285,8 +301,14 @@ export default function Home() {
 
   useEffect(() => {
     const browserLang = navigator.language.toLowerCase();
-    setLang(browserLang.startsWith("ja") ? "jp" : "en");
+    const requestedLang = new URLSearchParams(window.location.search).get("lang");
+    setLang(requestedLang === "en" ? "en" : browserLang.startsWith("ja") ? "jp" : "en");
+    if (new URLSearchParams(window.location.search).get("sent") === "1") setStatus("success");
   }, []);
+
+  useEffect(() => {
+    document.documentElement.lang = lang === "jp" ? "ja" : "en";
+  }, [lang]);
 
   useEffect(() => {
     const timer = window.setInterval(() => {
@@ -298,7 +320,7 @@ export default function Home() {
   function updateField(field: Field, value: string) {
     setForm((current) => ({ ...current, [field]: value }));
     setErrors((current) => ({ ...current, [field]: undefined }));
-    setStatus("idle");
+    if (status === "success") setStatus("idle");
   }
 
   function submit(event: FormEvent<HTMLFormElement>) {
@@ -313,21 +335,16 @@ export default function Home() {
     setErrors(nextErrors);
     if (Object.keys(nextErrors).length) return;
     setStatus("sending");
-    window.setTimeout(() => {
-      setStatus("success");
-      setForm(initialForm);
-    }, 900);
+    event.currentTarget.submit();
   }
 
   return (
     <main className="min-h-screen overflow-hidden bg-[#f5f1e9] text-[#161616]">
       <nav className="fixed inset-x-0 top-0 z-50 border-b border-black/10 bg-[#f5f1e9]/90 backdrop-blur-xl">
         <div className="mx-auto flex h-20 max-w-[1540px] items-center justify-between px-5 sm:px-8 lg:px-12">
-          <a href="#top" className="group flex items-center gap-3" aria-label="Pulse Matrix home">
-            <span className="grid h-9 w-9 place-items-center bg-[#161616] text-xs font-black text-[#f5f1e9] transition-transform group-hover:rotate-6">
-              PM
-            </span>
-            <span className="text-sm font-black uppercase tracking-[0.16em]">Pulse Matrix</span>
+          <a href="#top" className="group flex items-center gap-3" aria-label="uwupon home">
+            <BrandMark />
+            <span className="text-base font-black lowercase tracking-[0.08em]">uwupon</span>
           </a>
           <div className="hidden items-center gap-8 lg:flex">
             {t.nav.map(([item, id]) => (
@@ -368,13 +385,13 @@ export default function Home() {
         <div className="relative mx-auto grid min-h-[calc(100vh-8rem)] max-w-[1540px] content-between gap-12">
           <div className="grid gap-8 lg:grid-cols-[1fr_0.78fr] lg:items-start">
             <div>
-              <p className="mb-7 text-xs font-black uppercase tracking-[0.26em] text-black/55">{t.eyebrow}</p>
-              <h1 className="max-w-[12ch] text-[clamp(3.7rem,12vw,13rem)] font-black uppercase leading-[0.8] tracking-normal">
+              <p className="mb-7 text-xs font-black uppercase tracking-[0.2em] text-black/55">{t.eyebrow}</p>
+              <h1 className="max-w-[12ch] text-[clamp(3.35rem,10vw,12rem)] font-black uppercase leading-[0.86] tracking-normal">
                 {t.hero}
               </h1>
             </div>
             <div className="relative mt-4 overflow-hidden border border-black/15 bg-black shadow-2xl lg:mt-12">
-              <img src="/og.png" alt="Pulse Matrix music content ecosystem visual" className="aspect-[16/10] w-full object-cover opacity-90" />
+              <img src="/og.png" alt="uwupon short-form music content ecosystem visual" className="aspect-[16/10] w-full object-cover opacity-90" />
               <div className="absolute inset-x-0 bottom-0 flex items-end justify-between bg-gradient-to-t from-black via-black/65 to-transparent p-5 text-white">
                 <p className="text-xs font-black uppercase tracking-[0.18em] text-white/70">Release Signal Map</p>
                 <p className="text-5xl font-black text-[#d6ff3f]">50+</p>
@@ -402,10 +419,10 @@ export default function Home() {
             <p className="mt-5 max-w-xl text-sm leading-relaxed text-white/58">{t.proofCopy}</p>
           </div>
           <div className="grid gap-px bg-white/15 md:grid-cols-3">
-            {["LABEL", "MANAGEMENT", "PUBLISHER", "AGENCY", "GLOBAL", "INDIE"].map((slot) => (
-              <div key={slot} className="bg-[#161616] p-5">
-                <p className="text-[10px] font-black uppercase tracking-[0.18em] text-[#d6ff3f]">{t.logoNote}</p>
-                <p className="mt-8 text-2xl font-black text-white/50">{slot}</p>
+            {t.audience.map((slot) => (
+              <div key={slot} className="bg-[#161616] p-5 transition hover:bg-[#202020]">
+                <BrandMark small />
+                <p className="mt-8 text-2xl font-black uppercase leading-none text-white/70">{slot}</p>
               </div>
             ))}
           </div>
@@ -545,21 +562,26 @@ export default function Home() {
             <h2 className="mt-5 text-5xl font-black uppercase leading-none sm:text-7xl">{t.formTitle}</h2>
             <p className="mt-8 max-w-xl text-lg leading-relaxed text-white/62">{t.formIntro}</p>
           </div>
-          <form onSubmit={submit} noValidate className="grid gap-5">
+          <form action="https://formsubmit.co/aweandco@gmail.com" method="POST" onSubmit={submit} noValidate className="grid gap-5">
+            <input type="hidden" name="_subject" value="New uwupon campaign inquiry" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_next" value="https://uwupon.aweandco.chatgpt.site/?sent=1" />
+            <input type="text" name="_honey" className="hidden" tabIndex={-1} autoComplete="off" />
             <div className="grid gap-5 md:grid-cols-2">
-              <Input label={t.fields.name} value={form.name} error={errors.name} onChange={(value) => updateField("name", value)} required />
-              <Input label={t.fields.company} value={form.company} onChange={(value) => updateField("company", value)} />
-              <Input label={t.fields.email} type="email" value={form.email} error={errors.email} onChange={(value) => updateField("email", value)} required />
-              <Input label={t.fields.artist} value={form.artist} error={errors.artist} onChange={(value) => updateField("artist", value)} required />
-              <Input label={t.fields.project} value={form.project} error={errors.project} onChange={(value) => updateField("project", value)} required />
-              <Input label={t.fields.budget} value={form.budget} placeholder={t.placeholders.budget} error={errors.budget} onChange={(value) => updateField("budget", value)} required />
-              <Input label={t.fields.market} value={form.market} placeholder={t.placeholders.market} error={errors.market} onChange={(value) => updateField("market", value)} required />
-              <Input label={t.fields.release} type="date" value={form.release} onChange={(value) => updateField("release", value)} />
+              <Input name="name" label={t.fields.name} value={form.name} error={errors.name} onChange={(value) => updateField("name", value)} required />
+              <Input name="company" label={t.fields.company} value={form.company} onChange={(value) => updateField("company", value)} />
+              <Input name="email" label={t.fields.email} type="email" value={form.email} error={errors.email} onChange={(value) => updateField("email", value)} required />
+              <Input name="artist" label={t.fields.artist} value={form.artist} error={errors.artist} onChange={(value) => updateField("artist", value)} required />
+              <Input name="project" label={t.fields.project} value={form.project} error={errors.project} onChange={(value) => updateField("project", value)} required />
+              <Input name="budget" label={t.fields.budget} value={form.budget} placeholder={t.placeholders.budget} error={errors.budget} onChange={(value) => updateField("budget", value)} required />
+              <Input name="market" label={t.fields.market} value={form.market} placeholder={t.placeholders.market} error={errors.market} onChange={(value) => updateField("market", value)} required />
+              <Input name="release_date" label={t.fields.release} type="date" value={form.release} onChange={(value) => updateField("release", value)} />
             </div>
-            <Input label={t.fields.goal} value={form.goal} placeholder={t.placeholders.goal} error={errors.goal} onChange={(value) => updateField("goal", value)} required />
+            <Input name="campaign_goal" label={t.fields.goal} value={form.goal} placeholder={t.placeholders.goal} error={errors.goal} onChange={(value) => updateField("goal", value)} required />
             <label className="grid gap-2">
               <span className="text-xs font-black uppercase tracking-[0.16em] text-white/58">{t.fields.info}</span>
-              <textarea value={form.info} onChange={(event) => updateField("info", event.target.value)} placeholder={t.placeholders.info} className="min-h-36 border border-white/18 bg-white/7 px-4 py-4 text-base text-white outline-none transition placeholder:text-white/25 focus:border-[#d6ff3f]" />
+              <textarea name="additional_information" value={form.info} onChange={(event) => updateField("info", event.target.value)} placeholder={t.placeholders.info} className="min-h-36 border border-white/18 bg-white/7 px-4 py-4 text-base text-white outline-none transition placeholder:text-white/25 focus:border-[#d6ff3f]" />
             </label>
             <button disabled={status === "sending"} className="mt-2 bg-[#d6ff3f] px-6 py-5 text-sm font-black uppercase tracking-[0.14em] text-black transition hover:bg-white disabled:cursor-wait disabled:opacity-70">
               {status === "sending" ? t.sending : t.cta}
@@ -569,26 +591,32 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="bg-[#f5f1e9] px-5 py-12 sm:px-8 lg:px-12">
-        <div className="mx-auto flex max-w-[1540px] flex-col gap-8 border-t border-black/12 pt-8 md:flex-row md:items-center md:justify-between">
+      <section className="bg-[#f5f1e9] px-5 py-16 sm:px-8 lg:px-12">
+        <div className="mx-auto grid max-w-[1540px] gap-8 border-t border-black/12 pt-10 lg:grid-cols-[0.4fr_1fr_1fr]">
           <div>
-            <p className="text-xl font-black uppercase tracking-[0.12em]">Pulse Matrix</p>
+            <p className="text-xs font-black uppercase tracking-[0.2em] text-black/40">{t.legalTitle}</p>
+            <p className="mt-4 text-2xl font-black lowercase">uwupon</p>
             <p className="mt-2 text-sm font-bold text-black/50">{t.footer}</p>
           </div>
-          <div className="flex flex-wrap gap-x-6 gap-y-3 text-xs font-black uppercase tracking-[0.14em] text-black/56">
-            {["Instagram", "TikTok", "YouTube", "X", "Contact", "Privacy Policy", "Terms"].map((item) => (
-              <a key={item} href={item === "Contact" ? "#contact" : "#top"} className="transition hover:text-black">
-                {item}
-              </a>
-            ))}
-          </div>
+          <LegalBlock title={t.privacyTitle} body={t.privacy} />
+          <LegalBlock title={t.termsTitle} body={t.terms} />
+        </div>
+        <div className="mx-auto mt-10 flex max-w-[1540px] flex-col gap-5 border-t border-black/12 pt-8 md:flex-row md:items-center md:justify-between">
+          <p className="text-xs font-bold uppercase tracking-[0.14em] text-black/35">Copyright 2026 uwupon. All rights reserved.</p>
           <LanguageToggle lang={lang} setLang={setLang} />
         </div>
-        <p className="mx-auto mt-10 max-w-[1540px] text-xs font-bold uppercase tracking-[0.14em] text-black/35">
-          Copyright 2026 Pulse Matrix. All rights reserved.
-        </p>
-      </footer>
+      </section>
     </main>
+  );
+}
+
+function BrandMark({ small = false }: { small?: boolean }) {
+  return (
+    <span className={`relative grid place-items-center bg-[#161616] ${small ? "h-8 w-8" : "h-10 w-10"}`} aria-hidden="true">
+      <span className="absolute h-1/2 w-1/2 rounded-full border-2 border-[#d6ff3f]" />
+      <span className="absolute h-[72%] w-[72%] rounded-full border border-white/45" />
+      <span className="h-1.5 w-1.5 rounded-full bg-[#ff5b45]" />
+    </span>
   );
 }
 
@@ -639,7 +667,17 @@ function CaseDetail({ label, value }: { label: string; value: string }) {
   );
 }
 
+function LegalBlock({ title, body }: { title: string; body: string }) {
+  return (
+    <article>
+      <h2 className="text-lg font-black uppercase tracking-[0.08em]">{title}</h2>
+      <p className="mt-4 text-sm leading-relaxed text-black/58">{body}</p>
+    </article>
+  );
+}
+
 function Input({
+  name,
   label,
   value,
   onChange,
@@ -648,6 +686,7 @@ function Input({
   type = "text",
   required = false,
 }: {
+  name: string;
   label: string;
   value: string;
   onChange: (value: string) => void;
@@ -662,7 +701,7 @@ function Input({
         {label}
         {required ? " *" : ""}
       </span>
-      <input value={value} onChange={(event) => onChange(event.target.value)} placeholder={placeholder} type={type} aria-invalid={Boolean(error)} className="h-14 border border-white/18 bg-white/7 px-4 text-base text-white outline-none transition placeholder:text-white/25 focus:border-[#d6ff3f]" />
+      <input name={name} value={value} onChange={(event) => onChange(event.target.value)} placeholder={placeholder} type={type} aria-invalid={Boolean(error)} className="h-14 border border-white/18 bg-white/7 px-4 text-base text-white outline-none transition placeholder:text-white/25 focus:border-[#d6ff3f]" />
       {error && <span className="text-xs font-bold text-[#ff775f]">{error}</span>}
     </label>
   );
