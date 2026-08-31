@@ -29,7 +29,7 @@ const content = {
     eyebrow: "日本の音楽市場に特化したショートフォーム戦略",
     hero: "1曲から何十本ものショート動画へ",
     intro:
-      "uwuponは、楽曲からショート動画の企画をつくり、まとめて制作し、複数の投稿面へ配信し、反応を見ながら改善する音楽マーケティングスタジオです。",
+      "Kyomei（キョウメイ）は、楽曲の魅力が伝わるショート動画を企画・制作し、反応を見ながら広げていく音楽マーケティングスタジオです。",
     proofTitle: "レーベル、マネジメント、アーティストチームのための実行体制。",
     proofCopy:
       "新曲リリース、旧譜の再発見、海外展開、日本市場へのローカライズまで。高額な単発投稿に頼り切らず、複数の企画と制作量で反応の入口を広げます。",
@@ -42,7 +42,7 @@ const content = {
     problemTitle: "音楽プロモーションは、試せる回数で差がつく。",
     problem:
       "単発のインフルエンサー投稿だけでは、どの文脈で曲が届くのか見えにくい。制作本数が少ないほど、曲の可能性はひとつの表現に固定されます。",
-    answerTitle: "uwuponは、曲の使われ方を増やします。",
+    answerTitle: "Kyomeiは、曲が届くきっかけを増やします。",
     answer:
       "サビ、歌詞、ムード、ストーリー、編集テンポ、ミーム性、コミュニティの文脈を複数に分解。反応を見ながら、強い企画へ制作と配信を集中させます。",
     modelTitle: "1曲から、複数の発見経路へ。",
@@ -69,7 +69,7 @@ const content = {
     ],
     whyTitle: "ひとつの投稿ではなく、反応が集まる構造をつくる。",
     traditional: "従来型の単発施策",
-    ours: "uwuponの運用モデル",
+    ours: "Kyomeiの運用モデル",
     traditionalList: ["投稿者が限られる", "表現の検証が少ない", "費用対効果を読みづらい", "短期間で終わりやすい", "次の施策に学びが残りにくい"],
     oursList: ["複数の企画軸を同時に試す", "制作本数で接触機会を増やす", "反応を見て改善する", "日本語圏と海外圏を分けて設計する", "次のリリースに使える知見を残す"],
     ecosystemTitle: "1曲を、コンテンツの生態系へ。",
@@ -79,7 +79,7 @@ const content = {
       ["50+", "CONTENT PIECES"],
       ["1000s", "DISCOVERY MOMENTS"],
     ],
-    plansTitle: "uwuponでできること。",
+    plansTitle: "Kyomeiでできること。",
     plansNote:
       "過去実績ではなく、相談時に設計できるキャンペーン例です。再生数、配信面、ストリーム増加は楽曲、素材、予算、投稿先、時期により変動します。",
     planLabels: {
@@ -127,7 +127,7 @@ const content = {
     ],
     aboutTitle: "広告ではなく、インターネットが使いたくなる理由をつくる。",
     about:
-      "いま音楽は、プレイリストやメディア露出だけで広がるものではありません。ショート動画、編集、ミーム、クリエイター、コミュニティ、アルゴリズムの中で、曲は何度も違う意味を持ちます。uwuponは、その環境に合わせて、楽曲が見つかる入口を増やします。",
+      "いま音楽は、プレイリストやメディア露出だけで広がるものではありません。ショート動画、編集、クリエイター、コミュニティの中で、曲は何度も新しい意味を持ちます。Kyomeiは、その流れに合わせて、楽曲が見つかる入口を増やします。",
     formTitle: "次のリリースを相談する。",
     formIntro:
       "楽曲、発売日、目標市場、予算感を共有してください。確認後、キャンペーン設計に必要な質問を整理してご連絡します。",
@@ -175,7 +175,7 @@ const content = {
     eyebrow: "SHORT-FORM MUSIC STRATEGY FOR JAPAN",
     hero: "ONE SONG. CHANGES EVERYTHING.",
     intro:
-      "uwupon turns songs into short-form concepts, produces them at volume, distributes them across relevant accounts, then tests and improves the campaign around audience response.",
+      "Kyomei turns songs into short-form concepts, produces them at volume, distributes them across relevant accounts, then tests and improves the campaign around audience response.",
     proofTitle: "Built for labels, management teams, and modern artists.",
     proofCopy:
       "For new releases, catalog rediscovery, Japan localization, and global expansion. We do not rely on a single expensive post; we build many credible entry points around a song.",
@@ -188,7 +188,7 @@ const content = {
     problemTitle: "Music promotion is now a game of attempts.",
     problem:
       "One-off influencer posts can be expensive, narrow, and hard to learn from. When creative volume is low, a song gets trapped inside one expression before the audience can show what works.",
-    answerTitle: "uwupon multiplies the ways a song can be used.",
+    answerTitle: "Kyomei multiplies the ways a song can be used.",
     answer:
       "We break a track into hooks, captions, edits, narratives, meme angles, moods, and community contexts, then concentrate production around the strongest signals.",
     modelTitle: "ONE SONG. MANY ENTRY POINTS.",
@@ -215,7 +215,7 @@ const content = {
     ],
     whyTitle: "Not one post. A structure for more signal.",
     traditional: "Traditional one-off promotion",
-    ours: "uwupon operating model",
+    ours: "Kyomei operating model",
     traditionalList: ["Limited creators", "Few creative tests", "Hard-to-read efficiency", "Short campaign life", "Little learning for the next release"],
     oursList: ["Multiple creative directions", "Higher content volume", "Continuous optimization", "Separate Japan and global angles", "Reusable learning for future releases"],
     ecosystemTitle: "ONE SONG BECOMES A CONTENT ECOSYSTEM.",
@@ -225,7 +225,7 @@ const content = {
       ["50+", "CONTENT PIECES"],
       ["1000s", "DISCOVERY MOMENTS"],
     ],
-    plansTitle: "What uwupon can do for you.",
+    plansTitle: "What Kyomei can do for you.",
     plansNote:
       "These are campaign structures, not past-client results. Views, distribution count, and stream impact vary by song, assets, budget, timing, and account fit.",
     planLabels: {
@@ -273,7 +273,7 @@ const content = {
     ],
     aboutTitle: "We do not simply advertise songs. We create reasons for the internet to use them.",
     about:
-      "Music discovery no longer lives in one place. Songs move through short videos, edits, memes, creators, communities, and recommendation systems. uwupon is built for that environment: a team that expands the number of credible entry points around a release.",
+      "Music discovery no longer lives in one place. Songs move through short videos, edits, memes, creators, communities, and recommendation systems. Kyomei is built for that environment: a team that expands the number of credible entry points around a release.",
     formTitle: "Start the next release conversation.",
     formIntro:
       "Send the track, release timing, target market, and budget range. After review, we will reply with the questions needed to shape a campaign.",
@@ -305,7 +305,7 @@ const content = {
       "Information submitted through the contact form, including name, company, email address, artist, and project details, is used only to respond to inquiries, prepare proposals, communicate about services, and improve operations. We do not sell submitted personal information to third parties.",
     termsTitle: "Terms",
     terms:
-      "This website provides general information about uwupon services. Campaign scope, fees, timing, deliverables, and performance indicators are determined by individual agreement. Unauthorized copying, redistribution, or commercial use of site content is prohibited.",
+      "This website provides general information about Kyomei services. Campaign scope, fees, timing, deliverables, and performance indicators are determined by individual agreement. Unauthorized copying, redistribution, or commercial use of site content is prohibited.",
     footer: "Tokyo, Japan",
   },
 } as const;
@@ -377,9 +377,9 @@ export default function Home() {
     <main className={`min-h-screen overflow-hidden bg-[#f5f1e9] text-[#161616] ${isJp ? "jp-page" : "en-page"}`}>
       <nav className="fixed inset-x-0 top-0 z-50 border-b border-black/10 bg-[#f5f1e9]/90 backdrop-blur-xl">
         <div className="mx-auto flex h-20 max-w-[1540px] items-center justify-between px-5 sm:px-8 lg:px-12">
-          <a href="#top" className="group flex items-center gap-3" aria-label="uwupon home">
+          <a href="#top" className="group flex items-center gap-3" aria-label="Kyomei home">
             <BrandMark />
-            <span className="text-base font-black lowercase tracking-[0.08em]">uwupon</span>
+            <span className="text-base font-black tracking-[0.08em]">Kyomei</span>
           </a>
           <div className="hidden items-center gap-7 xl:flex">
             {t.nav.map(([item, id]) => (
@@ -438,7 +438,7 @@ export default function Home() {
               </h1>
             </div>
             <div className="relative mt-4 overflow-hidden border border-black/15 bg-black shadow-2xl lg:mt-5 lg:min-h-[360px] xl:min-h-[430px]">
-              <img src="/og.png" alt="uwupon short-form music content ecosystem visual" className="aspect-[16/10] h-full min-h-[260px] w-full object-cover opacity-90 lg:aspect-auto" />
+              <img src="/og.png" alt="Kyomei short-form music content ecosystem visual" className="aspect-[16/10] h-full min-h-[260px] w-full object-cover opacity-90 lg:aspect-auto" />
               <div className="absolute inset-x-0 bottom-0 flex items-end justify-between bg-gradient-to-t from-black via-black/65 to-transparent p-5 text-white">
                 <p className="text-xs font-black uppercase tracking-[0.18em] text-white/70">Release Signal Map</p>
                 <p className="text-5xl font-black text-[#d6ff3f]">50+</p>
@@ -608,10 +608,10 @@ export default function Home() {
             <p className="mt-8 max-w-xl text-lg leading-relaxed text-white/62">{t.formIntro}</p>
           </div>
           <form action="https://formsubmit.co/aweandco@gmail.com" method="POST" onSubmit={submit} noValidate className="grid gap-5">
-            <input type="hidden" name="_subject" value="New uwupon campaign inquiry" />
+            <input type="hidden" name="_subject" value="New Kyomei campaign inquiry" />
             <input type="hidden" name="_template" value="table" />
             <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name="_next" value="https://uwupon.aweandco.chatgpt.site/?sent=1" />
+            <input type="hidden" name="_next" value="https://uwupon.pages.dev/?sent=1" />
             <input type="text" name="_honey" className="hidden" tabIndex={-1} autoComplete="off" />
             <div className="grid gap-5 md:grid-cols-2">
               <Input name="name" label={t.fields.name} value={form.name} error={errors.name} onChange={(value) => updateField("name", value)} required />
@@ -640,14 +640,14 @@ export default function Home() {
         <div className="mx-auto grid max-w-[1540px] gap-8 border-t border-black/12 pt-10 lg:grid-cols-[0.4fr_1fr_1fr]">
           <div>
             <p className="text-xs font-black uppercase tracking-[0.2em] text-black/40">{t.legalTitle}</p>
-            <p className="mt-4 text-2xl font-black lowercase">uwupon</p>
+            <p className="mt-4 text-2xl font-black">Kyomei</p>
             <p className="mt-2 text-sm font-bold text-black/50">{t.footer}</p>
           </div>
           <LegalBlock title={t.privacyTitle} body={t.privacy} />
           <LegalBlock title={t.termsTitle} body={t.terms} />
         </div>
         <div className="mx-auto mt-10 flex max-w-[1540px] flex-col gap-5 border-t border-black/12 pt-8 md:flex-row md:items-center md:justify-between">
-          <p className="text-xs font-bold uppercase tracking-[0.14em] text-black/35">Copyright 2026 uwupon. All rights reserved.</p>
+          <p className="text-xs font-bold uppercase tracking-[0.14em] text-black/35">Copyright 2026 Kyomei. All rights reserved.</p>
           <LanguageToggle lang={lang} setLang={setLang} />
         </div>
       </section>
