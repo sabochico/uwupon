@@ -15,23 +15,23 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL('https://uwupon.pages.dev'),
   title: {
-    default: 'Kyomei | 日本発ショートフォーム音楽マーケティング',
-    template: '%s | Kyomei',
+    default: 'uwupon | 日本発ショートフォーム音楽マーケティング',
+    template: '%s | uwupon',
   },
   description:
-    'Kyomei is a Tokyo-based short-form music marketing studio for artists, labels, management teams, and Japan-global music releases.',
+    'uwupon is a Tokyo-based short-form music marketing studio for artists, labels, management teams, and Japan-global music releases.',
   keywords: [
-    'Kyomei',
-    'キョウメイ',
+    'uwupon',
+    'ウワポン',
     'music marketing Japan',
     'Japanese music marketing agency',
     'TikTok music campaign',
     'short-form music marketing',
     'Japan music promotion',
   ],
-  authors: [{ name: 'Kyomei' }],
-  creator: 'Kyomei',
-  publisher: 'Kyomei',
+  authors: [{ name: 'uwupon' }],
+  creator: 'uwupon',
+  publisher: 'uwupon',
   alternates: {
     canonical: '/',
   },
@@ -40,15 +40,15 @@ export const metadata: Metadata = {
     locale: 'ja_JP',
     alternateLocale: ['en_US'],
     url: '/',
-    siteName: 'Kyomei',
-    title: 'Kyomei | Short-Form Music Marketing for Japan',
+    siteName: 'uwupon',
+    title: 'uwupon | Short-Form Music Marketing for Japan',
     description:
       'A Tokyo-based music marketing studio creating short-form content systems for artists, labels, and Japan-global releases.',
     images: ['/og.png'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Kyomei | Short-Form Music Marketing for Japan',
+    title: 'uwupon | Short-Form Music Marketing for Japan',
     description:
       'Short-form campaign strategy, production, distribution, testing, and reporting for modern music releases.',
     images: ['/og.png'],
